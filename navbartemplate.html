@@ -1,6 +1,12 @@
 ﻿<!--Include of header-->
+<!--<script>
+//GOOGLE SEARCH
+//Enter domain of site to search.
+var domainroot="oudlicht.github.io"
+function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value }
+</script>--> 
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0094ff; navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0094ff;">
     <a class="navbar-brand" href="index.html">OudLicht</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,26 +27,29 @@
                 <a class="nav-link disabled" href="#">Lichte_dames</a>
             </li>
         </ul>
-
-        <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
-        <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="historie.html">Vroeger</a>
-                <ul class="dropdown-menu">
-                    <li><a href="historie.html#">Glansrijke historie</a></li>
-                    <li><a href="historie.html#historie2017">2016-2017</a></li>
-                    <li><a href="historie.html#historie2016">2015-2016</a></li>
-                    <li><a href="historie.html#historie2015">2014-2015</a></li>
-                </ul>
-            </li>
-        </ul>
-        <!--</div>-->
-        <!--<div class="collapse navbar-collapse" id="mynavbarSupportedContent">-->
-        <!--<form id="nocollapse" class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
-        <!--</div>-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="historie.html">Vroeger</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="historie.html#">Glansrijke historie</a></li>
+                        <li><a href="historie.html#historie2017">2016-2017</a></li>
+                        <li><a href="historie.html#historie2016">2015-2016</a></li>
+                        <li><a href="historie.html#historie2015">2014-2015</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--<div class="collapse navbar-collapse" id="myNavbar">
+            <form class="search" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+                <input name="q" type="hidden" />
+                <input name="qfront" type="search" required class="searchField" placeholder="Google Site Search" maxlength="50" />
+                <input type="submit" class="search-button" value="SEARCH" />
+            </form>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>-->
     </div>
 </nav>
-
