@@ -35,9 +35,13 @@
         src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
         src: local('Material Icons'), local('MaterialIcons-Regular'), url("fonts/MaterialIcons-Regular.woff2") format('woff2'), url("fonts/MaterialIcons-Regular.ttf") format('truetype');
         }
-        .navbar-static-top .navbar-collapse.in {
-    overflow-y: visible; /* Bootstrap default is "auto" */
-}
+        .navbar {
+            /*overflow: hidden;*/
+            background-color: #333;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+        }
         .material-icons {
         font-family: 'Material Icons';
         font-weight: normal;
@@ -93,6 +97,7 @@
         font: 400 15px Lato, sans-serif;
         line-height: 1.8;
         color: #818181;
+        padding-top: 40px;
         }
 
         h2 {
