@@ -7,9 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.js">
 </head>
 <body>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -20,7 +21,7 @@
     <script>
         $.get("navbartemplate.html", function (data) {
         $("#nav-placeholder").replaceWith(data);
-        });
+    });
         $.get("roeierslide.html", function (data) {
             $("#roeierslide-placeholder").replaceWith(data);
         });
@@ -33,21 +34,24 @@
             src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
             src: local('Material Icons'), local('MaterialIcons-Regular'), url("fonts/MaterialIcons-Regular.woff2") format('woff2'), url("fonts/MaterialIcons-Regular.ttf") format('truetype');
         }
-        .navbar {
 
+        .navbar {
             background-color: #333;
             position: fixed; /* Set the navbar to fixed position */
             top: 0; /* Position the navbar at the top of the page */
             width: 100%; /* Full width */
         }
-                .navbar-brand {
-          padding: 0px;
+
+        .navbar-brand {
+            padding: 0px;
         }
-        .navbar-brand>img {
-          height: 64px;
-          padding: 0px;
-          width: auto;
-        }
+
+            .navbar-brand > img {
+                height: 64px;
+                padding: 0px;
+                width: auto;
+            }
+
         .material-icons {
             font-family: 'Material Icons';
             font-weight: normal;
@@ -122,19 +126,24 @@
         }
 
         /* Smaller than standard 960 (devices and browsers) */
-        @media only screen and (max-width: 959px) {}
+        @media only screen and (max-width: 959px) {
+        }
 
         /* Tablet Portrait size to standard 960 (devices and browsers) */
-        @media only screen and (min-width: 768px) and (max-width: 959px) {}
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+        }
 
         /* All Mobile Sizes (devices and browser) */
-        @media only screen and (max-width: 767px) {}
+        @media only screen and (max-width: 767px) {
+        }
 
         /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-        @media only screen and (min-width: 480px) and (max-width: 767px) {}
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+        }
 
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-        @media only screen and (max-width: 479px) {}
+        @media only screen and (max-width: 479px) {
+        }
     </style>
     <!--Navigatiebar-->
     <div class="container-fluid" id="nav-placeholder"></div>
@@ -149,19 +158,19 @@
 
     <!--Slideshow met roeiers-->
     <div class="container-fluid">
-        <div class="row" >
+        <div class="row">
             <div class="col-sm">
-                
+
             </div>
             <div id="roeierslide-placeholder" class="col-sm">
-               <!-- <div ></div>-->
+                <!-- <div ></div>-->
             </div>
             <div class="col-sm">
-                
+
             </div>
         </div>
-    </div> 
-    
-    
+    </div>
+
+
 </body>
 </html>
