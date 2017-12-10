@@ -79,6 +79,7 @@
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
             color: #818181;
+            padding-top:50px;
         }
 
         h2 {
@@ -122,3 +123,11 @@
         right: auto;
         color: black;
         }
+          .container-fluid {
+         padding: 10px 10px;
+    }
+
+         .jumbotron {
+         padding: 20px 20px 20px ;
+         margin: 10px 10px 10px 10px;
+    }
