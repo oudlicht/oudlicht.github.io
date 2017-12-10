@@ -97,6 +97,20 @@
             font-weight: 400;
             margin-bottom: 30px;
         }
+       .carousel-caption {
+        position: relative;
+        left: auto;
+        right: auto;
+        color: black;
+        }
+          .container-fluid {
+         padding: 10px 10px;
+            }
+
+         .jumbotron {
+         padding: 20px 20px 20px ;
+         margin: 10px 10px 10px 10px;
+        }
 
         /* Smaller than standard 960 (devices and browsers) */
         @media only screen and (max-width: 959px) {
@@ -117,17 +131,4 @@
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
         @media only screen and (max-width: 479px) {
         }
-        .carousel-caption {
-        position: relative;
-        left: auto;
-        right: auto;
-        color: black;
-        }
-          .container-fluid {
-         padding: 10px 10px;
-    }
-
-         .jumbotron {
-         padding: 20px 20px 20px ;
-         margin: 10px 10px 10px 10px;
-    }
+ 
