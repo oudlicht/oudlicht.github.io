@@ -1,0 +1,11 @@
+﻿
+<div id="blok1">
+    <div class="jumbotron2 text-center">
+        <h3>Skeptische twee maakt vrienden op de bosbaan</h3>
+    </div>
+    <div class="jumbotron3 text-left">
+        <h4>Soceity-verslaggever Geiko de Raaf</h4>
+        <i>09-06-2003</i><br />
+        De tweede dag van de ARB/NK werd er niet alleen hard geroeid door Oud Licht, ook sociaal gebeurde er het nodige. Bij het oproeien voor de finale van LSA2- werd een Nereus-dubbeltwee van een aanvaring gered. De 'skeptische twee' (duidend op hun voorliefde voor oude Griekse filosofen zoals Pyrrho van Ellis), maakten ruim baan en waarschuwden de dubbeltwee toen deze in een startje van baan verwisselde en recht op de twee af stormde. "Het kan de bestegebeuren dat je in de start niet helemaal rechtdoor gaat" aldus de heer van Duyn, "al hebben wij daar vrijwel nooit last van." De heer Scholten was wel even geschrokken: "Toch, als je die dankbare blik ziet als ze naast je roeien, maakt dat weer een hoop goed." Groot was dan ook de vreugde, toen Oud Licht de boeg van genoemde dubbeltwee nogmaals tegen kwam bij het oproeien voor de LSA8+, nadat hij net in de SA8+ had verloren. "Hij is zo sportief" vertelde stuur Adje Patatje hierover, "hij is moe na de race en baalt natuurlijk dat hij niet gewonnen heeft, maar toch zwaaide hij nog even vrolijk naar ons." Ook de heer Den Besten was in zijn nopjes met de nieuwe vriendschap: "Ik vind het gewoon een hele mooie jongen."
+    </div>
+</div>
