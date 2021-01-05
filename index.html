@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109054686-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-109054686-1');
@@ -16,7 +20,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes, user-scalable=yes">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.js">
     <!--Eigen css-->
     <link rel="stylesheet" type="text/css" href="mystyle.css">
@@ -25,463 +30,1409 @@
 <body>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script>
-        $.get("navbartemplate.html", function (data) {
-            $("#nav-placeholder").replaceWith(data);
-        });
-        $.get("nieuws.html", function (data) {
-            $("#nieuws").replaceWith(data);
-        });
-        //$.get("ObbeNKIR.html", function (data) {
-        //    $("#raceObbe").replaceWith(data);
-        //});
-    </script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+    $.get("navbartemplate.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("nieuws.html", function (data) {
+        $("#nieuws").replaceWith(data);
+    });
+    //$.get("ObbeNKIR.html", function (data) {
+    //    $("#raceObbe").replaceWith(data);
+    //});
+</script>
 
-    <!--Included navbar with jquery-->
-    <div class="container-fluid" id="nav-placeholder"></div>
+<!--Included navbar with jquery-->
+<div class="container-fluid" id="nav-placeholder"></div>
 
-    <!--====================================== start of page ====================-->
-    <br />
-                <div class="jumbotronBlauw text-center">
-                    <h1>Oudlicht</h1>
-                </div>
-	<div class="row">
-		<div class="jumbotron text-center">
-			<div class="col-sm-3">
-				<img src="img/sloflip.gif" style="height: 400px; margin-bottom: 20px">
-			</div>
-		</div>
-		<div class="col-sm-5">
-			<div class="jumbotron text-center">
-			<img src="img/khb18-2.jpg" style="height: 400px; margin-bottom: 20px"> <br>     
-			<i>Suggesties of content, stuur een mailtje. oudlichtwebsite at gmail.com</i>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="jumbotron text-center">
-            <img src="img/logo.png" style="height: 400px; margin-bottom: 20px">
-			</div>
-		</div>
-	</div>
-        
+<!--====================================== start of page ====================-->
+<br/>
+<div class="jumbotronBlauw text-center">
+    <h1>Oudlicht</h1>
+</div>
+<div class="row" style="margin-left:0px; height: 500px">
+    <div class="col-sm-3">
+        <div class="jumbotron text-center">
+            <img src="img/fietsen/stb.gif" style="height: 400px; margin-bottom: 20px">
+        </div>
     </div>
-	
-	<div class="jumbotron2">
-			<h3>Oudlicht fietsvakantie Château d'Halloy!</h3>
-		</div>
-	<div class="row">
-			<div class="col-sm-7 ">
-				<div class="jumbotron text-center">
-                    <i>Ontsnapt aan het vlakke Holland vertrok OL in juli 2020 naar het prachtige Kasteel van Halloy.</i><br><br>
-				<img src="img/fietsen/2020fietsen2.jpg" style="width: 80%; margin-bottom: 20px;"> <br>
-				<img src="img/fietsen/2020fietsen3.jpg" style="width: 80%;margin-bottom: 20px"> <br>
-				</div>
-			</div>
-			<div class="col-sm-5">
-				<div class="jumbotron text-center">
-                <img src="img/fietsen/2020fietsen1.jpg" style="width: 60%; margin-bottom: 20px"> <br>
-				<img src="img/fietsen/2020fietsen4.jpg" style="width: 80%; margin-bottom: 20px"> <br>
+    <div class="col-sm-3">
+        <div class="jumbotron text-center">
+            <img src="img/logo.png" style="height: 400px; margin-bottom: 20px">
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="jumbotron text-center">
+            <img src="img/ld/invite.png" style="height: 400px; margin-bottom: 20px">
+        </div>
+    </div>
+        <div class="col-sm-3">
+        <div class="jumbotron text-center">
+            <img src="img/sloflip.gif" style="height: 400px; margin-bottom: 20px">
+        </div>
+    </div>
+</div>
 
-				</div>
-			</div>
-	</div>
-	
-	<div class="jumbotron2">
-			<h3>Oudlicht fietsvakantie Alpe d'huez!</h3>
-		</div>
-	<div class="row">
-			<div class="col-sm-7 ">
-				<div class="jumbotron text-center">
-                    <i>Na een denderend succes à la piscine afgelopen zomer is het tijd voor het Amsterdam fietsweekend. Meld je hieronder aan.</i><br><br>
-				<img src="img/fietsen/2019fietsen1.jpeg" style="width: 80%; margin-bottom: 20px; 	transform: rotate(180deg)"> <br>  
-				<img src="img/fietsen/2019fietsen3.jpeg" style="width: 80%;margin-bottom: 20px"> <br>  
-				</div>
-			</div>
-			<div class="col-sm-5">
-				<div class="jumbotron text-center">
-                <img src="img/fietsen/2019fietsen4.jpg" style="width: 60%; margin-bottom: 20px"> <br>
-				<img src="img/fietsen/2019fietsen2.jpg" style="width: 80%; margin-bottom: 20px"> <br>  
+</div>
 
-				</div>
-			</div>
-	</div>
-	
-	<div class="jumbotron2">
-			<h3>Oudlicht fietsweekend, de Marmotte en à la Piscine!</h3>
-		</div>
-	<div class="row">
-			<div class="col-sm-3 ">
-				<div class="jumbotron text-center">
-				<img src="img/fietsen/2019fietsen5.jpg" style="height: 400px; margin-bottom: 20px"> <br>  
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="jumbotron text-center">
-					Terug van weggeweest vond afgelopen zomer weer de Oudlichtfietsvakantie plaats. Op een mooie camping aan de voet van de Alpe d'huez werd er
-					gekampeerd en gekoerst voor de bollensokken.<br>
-					Het begon allemaal met een zwetende pastamaaltijd en een puzzel om de fietsen in de bus te krijgen. Maar vanaf daar was het een soepele rit in een bus 
-					met airco. Dus werd er ijskoud de Alpe d'hueze opgereden om er achter te komen dat bocht nul dus ook een ding is.<br>
-					Hoogtepunten waren uiteraard de tijdrit omhoog naar de Alpe en een lange dag Marmotte. Maar ook een aantal andere aanraders. La Berarde 30km klimfestijn door een dal. Col d\'Ornon (vergeet 
-					je lichtjes en je lange broek niet, het kan mistig zijn boven. (Wel goede crepes en een mooie tv). Als je een bonusklimmetje wilde kon je naar Oz, dat skidorp had verlaagd risico op onweer.<br>
-					Mocht je de bonte avond vergeten zijn. Luister dan nog eens naar https://www.youtube.com/watch?v=yaGigfw5L1I
-					
-				</div>
-			</div>
-			<div class="col-sm-3 ">
-				<div class="jumbotron text-center">
-				<img src="img/fietsen/2019fietsen6.jpg" style="height: 400px; margin-bottom: 20px"> <br>  
-				
-				</div>
-			</div>
-	</div>
-	
-	<div id="main" >
-		<div class="row">
-			<div class="col-sm-7">
-				<div class="jumbotron2 text-center">
-				<h3>Oudlicht op trainingskamp</h3>
-				</div>
-				<div class="row">
-				<div class="col-sm-6">
-					<div class="jumbotron text-center">
-						<img src="img/ploegen/knaapjes.jpg" style="width: 80%; margin-bottom: 20px">
-					</div>
-					<div class="jumbotron text-center">
-						<h1> Binnenkort verkrijgbaar!</h1>
-						<img src="img/fietsshirt.jpg" style="width: 80%; margin-bottom: 20px">
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="jumbotron text-center">
-						<h2>Krokante knaapjes</h2>
-						Woensdag 2 januari 2019. Vier jonge blonde krokante knaapjes liepen door de straten van Knokke-Heist. Het was een heldere avond waarop de jongens hadden besloten om gekleed in grijze joggingbroeken en 
-						slippers even het strand van deze bekende badplaats in West-Vlaanderen te bewonderen. Na een mooie strandwandeling besloten de jongens naar huis te gaan om de volgende dag weer fris in de boot te stappen. 
-						Op de terugweg verscheen in de verte een slank gestalte. Het leek wel alsof er een engel uit de hemel was gevallen maar in plaats van vleugels droeg ze een Tommy Jeans trui. Als perfectie zou bestaan, liep het hier 
-						op de stoep in Knokke-Heist. De vier lichte pikken keken allemaal in tunnelvisie naar deze blonde kruising tussen Cleopatra en Jennifer Aniston. Wat de jongens niet wisten was dat haar hele familie, waaronder haar vader, 
-						achter haar liep. Maar in plaats van dat haar vader boos werd omdat er vier jongens met een capuchon op ongegeneerd zijn dochter aan het observeren waren, sprak hij de legendarische woorden: ´´Tast maar toe, jongens´´ </br>
-						<i> Oudlicht - Tast maar toe </i>
-					</div>
-				</div>
-			</div>
-			
-			</div>
-			<div class="col-sm-4">
-				<div class="jumbotron2 text-center">
-					<h3>Coniferen op tijd gearriveerd</h3>
-				</div>
-				<div class="jumbotron text-center">
-					<img src="img/conifeerInput.jpg" style="height: 400px; margin-bottom: 100px; margin-top: 100px; transform: rotate(90deg)">
-				</div>
-			</div>
-			</div>
-			<div class="row">
-			<div class="col-sm-6 ">
-				<div class="jumbotron text-center">
-				<i>Het LPD komt er al weer bijna aan. Zorg dat je je outfit op orde hebt. Met je Oudlicht shirt onder je jasje en een OL flacon in je binnenzak ben je goed voorbereid! Flacons kunnen op 18 januari overhandigd worden.</i> <br />
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGU1km1ehR6tEyjK19WkV65TBvoZUENliTL4z7fwluMwu7pA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="jumbotron text-center">
-					<h2>Handig tijdens de wintersport!?</h2>
-					<i>Limited edition Oudlicht heupflacon</i><br />
-					<h3>Ben je het ook zat om tijdens het Lichtepikkendinner<br /> met een literfles whiskey in je binnenzak te staan? </h3> <br />
-					<h3>Heb je ook altijd zo'n dorst na de weging? </h3> <br />
-					<img src="img/flacon/flacon1.JPG" style="width: 80%; margin-bottom: 20px">
-					<br />
-					<br />
-					Je kan nu je bidoncollectie aanvullen met deze classy heupflacon met Oudlicht lasergravure.<br />
-					Voor maar €13.- is deze exclusieve gadget in jouw bezit.<br />
-					Stuur een mailtje of vul onderstaande formulier in voor rekeningnummer <br />
-					of overige vragen en maak het geld over. Dan heb je tijdens de wintersport een gevulde binnenzak.<br />
-					Let op: Op-is-op.
-				</div>
-			</div>
-			</div>
-			
-			
+<div class="jumbotron2">
+    <h3>Oudlicht fietsvakantie Château d'Halloy!</h3>
+</div>
+<div class="row">
+    <div class="col-sm-7 ">
+        <div class="jumbotron text-center">
+            <i>Ontsnapt aan het vlakke Holland vertrok OL in juli 2020 naar het prachtige Kasteel van
+                Halloy.</i><br><br>
+            <img src="img/fietsen/2020fietsen2.jpg" style="width: 80%; margin-bottom: 20px;"> <br>
+            <img src="img/fietsen/2020fietsen3.jpg" style="width: 80%;margin-bottom: 20px"> <br>
+        </div>
+    </div>
+    <div class="col-sm-5">
+        <div class="jumbotron text-center">
+            <img src="img/fietsen/2020fietsen1.jpg" style="width: 60%; margin-bottom: 20px"> <br>
+            <img src="img/fietsen/2020fietsen4.jpg" style="width: 80%; margin-bottom: 20px"> <br>
 
+        </div>
+    </div>
+</div>
 
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-4">
-			<div id="fietsvakantie" class="jumbotron2">
-				<h3>Afgemat door de oude garde</h3>
-			</div>
-			<div class="jumbotron3 text-center">
-				<img src="img/MTB.jpg" style="width: 100%; margin-bottom: 20px"><br>
-				Hij hoort het je liever niet zeggen maar je vraagt het je toch af. Hoe kan het dat hij zo snel is terwijl zijn roei-jaren zo ver achter hem liggen. <br>
-				Als je aan het huilen bent in het wiel van zijn mountainbike, dan zit je goed. Een realistischer scenario is 
-				dat je na 100 meter al moederziel alleen de single track aan het volgen bent over de Utrechtse heuvelrug en hoopt dat er zo snel mogelijk een T-splitsing komt waar er even gewacht wordt. <br>
-				Al met al zijn dit toch de uitjes waarbij je terug denkt aan de jaren dat je als een fitte lichte pik elke ochtend op kon staat en je lijf meer aan kon dan je dacht. Het leven is soms minder mooi
-				 maar dat maakt een uitstapje naar de heuvelrug niet minder leuk. 's Ochtends vroeg de trein pakken en door een frisse wind een parcours (of drie) afleggen en halverwege een verdiend stuk worteltaart met koffie. Dan droom je niet meer van een broodje pindakaas tussen de trainingen door op Uilenstede.
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<div class="jumbotron2">
-				<h3>NKIR resultaten</h3>
-			</div>
-			<div class="jumbotron3 text-center">
-							Obbe wordt Nederlands kampioen in een zeer rappe 6.14, David trekt zich naar 6.26.
-				<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BrIdqN4F9B5/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BrIdqN4F9B5/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BrIdqN4F9B5/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lichte dames der A.A.S.R Skoll (@lichtedamesderaasrskoll)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-12-08T15:59:17+00:00">Dec 8, 2018 at 7:59am PST</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script><br>
-							Eeehm, ja. Zucht. De rode generaal trekt aan het langste end. Op een seconde gevolgt door draaiende maaiende Ewout. Rutger, praatjes vullen geen gaatjes, tijdens 6min42 was je wel wat stil. @car, 6:46. Lars, mooi dat je hebt ingewogen, we zien je graag de derde vrijdag van januari.
+<div class="jumbotron2">
+    <h3>Oudlicht fietsvakantie Alpe d'huez!</h3>
+</div>
+<div class="row">
+    <div class="col-sm-7 ">
+        <div class="jumbotron text-center">
+            <i>Na een denderend succes à la piscine afgelopen zomer is het tijd voor het Amsterdam fietsweekend. Meld je
+                hieronder aan.</i><br><br>
+            <img src="img/fietsen/2019fietsen1.jpeg"
+                 style="width: 80%; margin-bottom: 20px; 	transform: rotate(180deg)"> <br>
+            <img src="img/fietsen/2019fietsen3.jpeg" style="width: 80%;margin-bottom: 20px"> <br>
+        </div>
+    </div>
+    <div class="col-sm-5">
+        <div class="jumbotron text-center">
+            <img src="img/fietsen/2019fietsen4.jpg" style="width: 60%; margin-bottom: 20px"> <br>
+            <img src="img/fietsen/2019fietsen2.jpg" style="width: 80%; margin-bottom: 20px"> <br>
 
-				</div>
-		</div>
-		<div class="col-sm-4">
-			<div class="jumbotron2">
-				<h3>Obbe domineert Hel</h3>
-			</div>
-			<div class="jumbotron3 text-center">
-				Tijdens de Hel van het Noorden wist Obbe zich het snelst van iedereen, hij won de race over 6k net als vorig jaar. Waar in eerdere edities Lennart dit ook wel eens wist klaar te spelen, roeide Obbe dit jaar met 41 seconde voorsprong naar het Blik. David werd netjes 3e.
-			</div>
-		</div>
-	</div>
-	
-		<div id="fietsvakantie" class="jumbotron2">
-			<h3>Huisje zoek op Oudlichtfietsvakantie</h3>
-		</div>
-	<div class="jumbotron3 text-center">
-		<div class="row">
+        </div>
+    </div>
+</div>
 
-			<div class="col-sm-4">
-				<img src="img/huisje.jpg" style="width: 100%; margin-bottom: 20px"><br>
-				Tijdens de Oudlicht fietsvakantie vertoefde een groep vederlichte fitte lichte pikken in een luxueze villa in de Ardennen. Dit schitterende huis was omgeven door een hondertal coniferen. Ondanks het plotten van de route bleek het onmogelijk om dag in dag uit het huisje terug te vinden. Voor sommigen zat er niets anders op dan weer terug te fietsen naar Maastricht.
-			</div>
-			<div class="col-sm-4">
-				<img src="img/fiets1.jpg" style="width: 100%; margin-bottom: 20px">
-			</div>
-			<div class="col-sm-4">
-				<img src="img/fiets2.jpg" style="width: 100%; margin-bottom: 20px">
-			</div>
-			</div>
-	</div>
+<div class="jumbotron2">
+    <h3>Oudlicht fietsweekend, de Marmotte en à la Piscine!</h3>
+</div>
+<div class="row">
+    <div class="col-sm-3 ">
+        <div class="jumbotron text-center">
+            <img src="img/fietsen/2019fietsen5.jpg" style="height: 400px; margin-bottom: 20px"> <br>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="jumbotron text-center">
+            Terug van weggeweest vond afgelopen zomer weer de Oudlichtfietsvakantie plaats. Op een mooie camping aan de
+            voet van de Alpe d'huez werd er
+            gekampeerd en gekoerst voor de bollensokken.<br>
+            Het begon allemaal met een zwetende pastamaaltijd en een puzzel om de fietsen in de bus te krijgen. Maar
+            vanaf daar was het een soepele rit in een bus
+            met airco. Dus werd er ijskoud de Alpe d'hueze opgereden om er achter te komen dat bocht nul dus ook een
+            ding is.<br>
+            Hoogtepunten waren uiteraard de tijdrit omhoog naar de Alpe en een lange dag Marmotte. Maar ook een aantal
+            andere aanraders. La Berarde 30km klimfestijn door een dal. Col d\'Ornon (vergeet
+            je lichtjes en je lange broek niet, het kan mistig zijn boven. (Wel goede crepes en een mooie tv). Als je
+            een bonusklimmetje wilde kon je naar Oz, dat skidorp had verlaagd risico op onweer.<br>
+            Mocht je de bonte avond vergeten zijn. Luister dan nog eens naar https://www.youtube.com/watch?v=yaGigfw5L1I
 
-	<br />
-    <br /><div id="2018" class="container-fluid text-center">
-        <div id="VerslagKHB" class="row">
-            <div class="col-sm-8">
+        </div>
+    </div>
+    <div class="col-sm-3 ">
+        <div class="jumbotron text-center">
+            <img src="img/fietsen/2019fietsen6.jpg" style="height: 400px; margin-bottom: 20px"> <br>
 
-                <div class="jumbotron2 text-center">
-                        <h3>KHB 2018</h3>
+        </div>
+    </div>
+</div>
+
+<div id="main">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="jumbotron2 text-center">
+                <h3>Oudlicht op trainingskamp</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="jumbotron text-center">
+                        <img src="img/ploegen/knaapjes.jpg" style="width: 80%; margin-bottom: 20px">
                     </div>
-                <div class="jumbotron3 text-left">
-                    <img src="img/khb18.jpg" style="width: 100%; margin-bottom: 20px"><br>
-                    30 juni en 1 juli vond de KHB plaats op de bosbaan. De zaterdag bracht al moois. David Kampman en Gyaan Damion Eigenberg gingen in het LM2x veld van start. Zinnend op een uitzending naar het SB-WK in Poznan, Polen, hoopten de mannen op een het kunnen aanscherpen van hun PR en een sterke race. Helaas had moeder natuur net wat andere plannen; door een sterke tegenwind waren alle tijden op de bosbaan aanzienlijk langzamer dan op de ARB. Ondanks dat de weersomstandigheden wat minder waren, wisten David en Damion wel weer als eerste over de streep te komen met een dikke 8 seconden voorsprong op de nummer 2 en het 2e blik van de dag voor Skøll binnen te slepen. Dat niet alleen, maar de heren werden ook Nederlands Kampioen in de LM2x, dus dubbel gefeliciteerd! Leuke vermelding is de Amstel/Skøll-combi met Gijs Andringa die voor de leuk even was ingestapt en een zeer verdienstelijke 4e plaats heeft weten te behalen.<br>
-                    Daarnaast trad de 4- aan in het development klassement. <br> Aan het einde van de zondag een LM8+ op het water. Deze jongens wapperden na een gemiste en gehaal weegpartij als laatste de finish over tegen landen als Hong Kong (provincie?) en Indonesie.<br>
-                    De middag werd afgesloten met de traditionele OL bbq onder de boom bij de finish.
-                    <br><img src="img/khb18bbq.jpg" style="width: 80%; margin-bottom: 20px" rotate="90">
+                    <div class="jumbotron text-center">
+                        <h1> Binnenkort verkrijgbaar!</h1>
+                        <img src="img/fietsshirt.jpg" style="width: 80%; margin-bottom: 20px">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="jumbotron text-center">
+                        <h2>Krokante knaapjes</h2>
+                        Woensdag 2 januari 2019. Vier jonge blonde krokante knaapjes liepen door de straten van
+                        Knokke-Heist. Het was een heldere avond waarop de jongens hadden besloten om gekleed in grijze
+                        joggingbroeken en
+                        slippers even het strand van deze bekende badplaats in West-Vlaanderen te bewonderen. Na een
+                        mooie strandwandeling besloten de jongens naar huis te gaan om de volgende dag weer fris in de
+                        boot te stappen.
+                        Op de terugweg verscheen in de verte een slank gestalte. Het leek wel alsof er een engel uit de
+                        hemel was gevallen maar in plaats van vleugels droeg ze een Tommy Jeans trui. Als perfectie zou
+                        bestaan, liep het hier
+                        op de stoep in Knokke-Heist. De vier lichte pikken keken allemaal in tunnelvisie naar deze
+                        blonde kruising tussen Cleopatra en Jennifer Aniston. Wat de jongens niet wisten was dat haar
+                        hele familie, waaronder haar vader,
+                        achter haar liep. Maar in plaats van dat haar vader boos werd omdat er vier jongens met een
+                        capuchon op ongegeneerd zijn dochter aan het observeren waren, sprak hij de legendarische
+                        woorden: ´´Tast maar toe, jongens´´ </br>
+                        <i> Oudlicht - Tast maar toe </i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="jumbotron2 text-center">
+                <h3>Coniferen op tijd gearriveerd</h3>
+            </div>
+            <div class="jumbotron text-center">
+                <img src="img/conifeerInput.jpg"
+                     style="height: 400px; margin-bottom: 100px; margin-top: 100px; transform: rotate(90deg)">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 ">
+            <div class="jumbotron text-center">
+                <i>Het LPD komt er al weer bijna aan. Zorg dat je je outfit op orde hebt. Met je Oudlicht shirt onder je
+                    jasje en een OL flacon in je binnenzak ben je goed voorbereid! Flacons kunnen op 18 januari
+                    overhandigd worden.</i> <br/>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGU1km1ehR6tEyjK19WkV65TBvoZUENliTL4z7fwluMwu7pA/viewform?embedded=true"
+                        width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...
+                </iframe>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="jumbotron text-center">
+                <h2>Handig tijdens de wintersport!?</h2>
+                <i>Limited edition Oudlicht heupflacon</i><br/>
+                <h3>Ben je het ook zat om tijdens het Lichtepikkendinner<br/> met een literfles whiskey in je binnenzak
+                    te staan? </h3> <br/>
+                <h3>Heb je ook altijd zo'n dorst na de weging? </h3> <br/>
+                <img src="img/flacon/flacon1.JPG" style="width: 80%; margin-bottom: 20px">
+                <br/>
+                <br/>
+                Je kan nu je bidoncollectie aanvullen met deze classy heupflacon met Oudlicht lasergravure.<br/>
+                Voor maar €13.- is deze exclusieve gadget in jouw bezit.<br/>
+                Stuur een mailtje of vul onderstaande formulier in voor rekeningnummer <br/>
+                of overige vragen en maak het geld over. Dan heb je tijdens de wintersport een gevulde binnenzak.<br/>
+                Let op: Op-is-op.
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div id="fietsvakantie" class="jumbotron2">
+            <h3>Afgemat door de oude garde</h3>
+        </div>
+        <div class="jumbotron3 text-center">
+            <img src="img/MTB.jpg" style="width: 100%; margin-bottom: 20px"><br>
+            Hij hoort het je liever niet zeggen maar je vraagt het je toch af. Hoe kan het dat hij zo snel is terwijl
+            zijn roei-jaren zo ver achter hem liggen. <br>
+            Als je aan het huilen bent in het wiel van zijn mountainbike, dan zit je goed. Een realistischer scenario is
+            dat je na 100 meter al moederziel alleen de single track aan het volgen bent over de Utrechtse heuvelrug en
+            hoopt dat er zo snel mogelijk een T-splitsing komt waar er even gewacht wordt. <br>
+            Al met al zijn dit toch de uitjes waarbij je terug denkt aan de jaren dat je als een fitte lichte pik elke
+            ochtend op kon staat en je lijf meer aan kon dan je dacht. Het leven is soms minder mooi
+            maar dat maakt een uitstapje naar de heuvelrug niet minder leuk. 's Ochtends vroeg de trein pakken en door
+            een frisse wind een parcours (of drie) afleggen en halverwege een verdiend stuk worteltaart met koffie. Dan
+            droom je niet meer van een broodje pindakaas tussen de trainingen door op Uilenstede.
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="jumbotron2">
+            <h3>NKIR resultaten</h3>
+        </div>
+        <div class="jumbotron3 text-center">
+            Obbe wordt Nederlands kampioen in een zeer rappe 6.14, David trekt zich naar 6.26.
+            <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/BrIdqN4F9B5/?utm_source=ig_embed&amp;utm_medium=loading"
+                        data-instgrm-version="12"
+                        style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                <div style="padding:16px;"><a
+                        href="https://www.instagram.com/p/BrIdqN4F9B5/?utm_source=ig_embed&amp;utm_medium=loading"
+                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                        target="_blank">
+                    <div style=" display: flex; flex-direction: row; align-items: center;">
+                        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                        </div>
+                    </div>
+                    <div style="padding: 19% 0;"></div>
+                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                        <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
+                             xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                    <g>
+                                        <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div style="padding-top: 8px;">
+                        <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                            View this post on Instagram
+                        </div>
+                    </div>
+                    <div style="padding: 12.5% 0;"></div>
+                    <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                        <div>
+                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                            <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                        </div>
+                        <div style="margin-left: 8px;">
+                            <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                            <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                        </div>
+                        <div style="margin-left: auto;">
+                            <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                            <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                            <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+                    </div>
+                </a>
+                    <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                        <a href="https://www.instagram.com/p/BrIdqN4F9B5/?utm_source=ig_embed&amp;utm_medium=loading"
+                           style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                           target="_blank">A post shared by Lichte dames der A.A.S.R Skoll
+                            (@lichtedamesderaasrskoll)</a> on
+                        <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                              datetime="2018-12-08T15:59:17+00:00">Dec 8, 2018 at 7:59am PST
+                        </time>
+                    </p>
+                </div>
+            </blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
+            <br>
+            Eeehm, ja. Zucht. De rode generaal trekt aan het langste end. Op een seconde gevolgt door draaiende maaiende
+            Ewout. Rutger, praatjes vullen geen gaatjes, tijdens 6min42 was je wel wat stil. @car, 6:46. Lars, mooi dat
+            je hebt ingewogen, we zien je graag de derde vrijdag van januari.
+
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="jumbotron2">
+            <h3>Obbe domineert Hel</h3>
+        </div>
+        <div class="jumbotron3 text-center">
+            Tijdens de Hel van het Noorden wist Obbe zich het snelst van iedereen, hij won de race over 6k net als vorig
+            jaar. Waar in eerdere edities Lennart dit ook wel eens wist klaar te spelen, roeide Obbe dit jaar met 41
+            seconde voorsprong naar het Blik. David werd netjes 3e.
+        </div>
+    </div>
+</div>
+
+<div id="fietsvakantie" class="jumbotron2">
+    <h3>Huisje zoek op Oudlichtfietsvakantie</h3>
+</div>
+<div class="jumbotron3 text-center">
+    <div class="row">
+
+        <div class="col-sm-4">
+            <img src="img/huisje.jpg" style="width: 100%; margin-bottom: 20px"><br>
+            Tijdens de Oudlicht fietsvakantie vertoefde een groep vederlichte fitte lichte pikken in een luxueze villa
+            in de Ardennen. Dit schitterende huis was omgeven door een hondertal coniferen. Ondanks het plotten van de
+            route bleek het onmogelijk om dag in dag uit het huisje terug te vinden. Voor sommigen zat er niets anders
+            op dan weer terug te fietsen naar Maastricht.
+        </div>
+        <div class="col-sm-4">
+            <img src="img/fiets1.jpg" style="width: 100%; margin-bottom: 20px">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/fiets2.jpg" style="width: 100%; margin-bottom: 20px">
+        </div>
+    </div>
+</div>
+
+<br/>
+<br/>
+<div id="2018" class="container-fluid text-center">
+    <div id="VerslagKHB" class="row">
+        <div class="col-sm-8">
+
+            <div class="jumbotron2 text-center">
+                <h3>KHB 2018</h3>
+            </div>
+            <div class="jumbotron3 text-left">
+                <img src="img/khb18.jpg" style="width: 100%; margin-bottom: 20px"><br>
+                30 juni en 1 juli vond de KHB plaats op de bosbaan. De zaterdag bracht al moois. David Kampman en Gyaan
+                Damion Eigenberg gingen in het LM2x veld van start. Zinnend op een uitzending naar het SB-WK in Poznan,
+                Polen, hoopten de mannen op een het kunnen aanscherpen van hun PR en een sterke race. Helaas had moeder
+                natuur net wat andere plannen; door een sterke tegenwind waren alle tijden op de bosbaan aanzienlijk
+                langzamer dan op de ARB. Ondanks dat de weersomstandigheden wat minder waren, wisten David en Damion wel
+                weer als eerste over de streep te komen met een dikke 8 seconden voorsprong op de nummer 2 en het 2e
+                blik van de dag voor Skøll binnen te slepen. Dat niet alleen, maar de heren werden ook Nederlands
+                Kampioen in de LM2x, dus dubbel gefeliciteerd! Leuke vermelding is de Amstel/Skøll-combi met Gijs
+                Andringa die voor de leuk even was ingestapt en een zeer verdienstelijke 4e plaats heeft weten te
+                behalen.<br>
+                Daarnaast trad de 4- aan in het development klassement. <br> Aan het einde van de zondag een LM8+ op het
+                water. Deze jongens wapperden na een gemiste en gehaal weegpartij als laatste de finish over tegen
+                landen als Hong Kong (provincie?) en Indonesie.<br>
+                De middag werd afgesloten met de traditionele OL bbq onder de boom bij de finish.
+                <br><img src="img/khb18bbq.jpg" style="width: 80%; margin-bottom: 20px" rotate="90">
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <img src="img/logo.png" style="width: 40%; margin-bottom: 20px">
+            </div>
+            <div class="jumbotron3 text-left">
+                Bericht aan de bezoekers<br/>
+                <br/>
+
+                Wij moeten u tot onze grote spijt meedelen dat er tijdens het Lichtdiner veel is misgegaan, en willen u
+                hiervan graag op de hoogte stellen. Het betreft grote fouten die op de avond van negentien januari aan
+                de deur zijn gemaakt. Wij nemen hier alle verantwoordelijkheid voor. Nadat de vooringang enige tijd door
+                de organisatie bemand was is er nagelaten de voordeur onder constant toezicht te houden, waardoor het
+                controleren van de gastenlijst niet voldoende is gebeurd. Dit heeft grote gevolgen gehad voor de rest
+                van het diner, en wij zullen niet proberen goed te praten wat wij hadden kunnen, en moeten, voorkomen.
+                Omdat wij transparant met u willen zijn volgt hier een grafische omschrijving van het
+                voorgevallene.<br/>
+                <br/>
+                Toen het diner zijn hoogtepunt van comfortabele gevoelens naderde en iedereen tevreden leek, zijn de
+                organiserende leden in buitensporige mate opgegaan in de losse atmosfeer, en hebben zij de focus
+                verloren. Hierdoor was het mogelijk dat, terwijl de gasten zich onder de uit hun heupflacons afkomstige
+                verdovende walm veilig waanden, zevenentwintig ongenode gasten hun kans schoon roken en door de
+                onbemande voordeur richting de eerste verdieping zijn geslopen. Nietsvermoedend stond het volk te
+                borrelen, toen het werd overvallen door een glibberige bende, en in luttele seconden transformeerde dit
+                zich tot een storm van zilveren glinsteringen. De indringers wierpen zich als ware kamikazevliegtuigen
+                op de mensen, die allen intussen bewust waren van het gevaar. Dit bewustzijn mocht niet baten, want de
+                vizieren stonden vanavond op scherp, en de bomen boden helaas niet voldoende beschutting voor de meer
+                dan honderd aanwezigen.
+                <br/>
+                <br/>
+                De schade werd aan allen duidelijk toen de storm ging liggen. Vele gasten liepen letsel aan hun hoofd en
+                schouders op, en mensen die door knie- en teenschade dit vermogen te lopen kwijt waren werden op lichte
+                picknicktafels meegenomen. De gewonden stroomden de toiletten binnen waar de wonden met enkel water en
+                toiletpapier werden verzorgd. Door deze rappe zelfhulp zijn fatale gevolgen gelukkig voorkomen, en de
+                fysieke en emotionele littekens zijn slechts als een indicator van het geweld dat zich op deze avond
+                heeft afgespeeld achtergebleven.
+                <br/>
+                <br/>
+                De sneaky motherfuckers hebben zich destijds in een laf vertoon tussen verwarmingen en achter de bar
+                verscholen, en hebben daar tot wel dagenlang gelegen. Inmiddels is, tot ieders grote opluchting, de
+                laatste overlevende indringer enkele dagen na het diner opgepakt, en we hebben goede hoop dat deze
+                overwinning een waarschuwing aan allen die ons kwaad toewensen is geweest en genoeg is om dergelijke
+                acties in de kiem te smoren. Dit is echter bij lange na niet genoeg voor ons om onszelf te kunnen
+                vergeven.
+                Vanwege de steken die wij hebben laten vallen, hebben wij besloten de functie van organisatie van het
+                Lichtdiner permanent naast ons neer te leggen, en deze over te laten aan een nieuwe generatie.
+                <br/>
+                <br/>
+                Bedankt voor uw aandacht.<br/>
+                Licht ‘17
+            </div>
+
+        </div>
+    </div>
+    <div id="Flacon" class="container-fluid text-center">
+        <div id="blokken" class="row">
+            <div class="col-sm-4">
+
+                <div id="coniferen">
+                    <div class="jumbotron2 text-center">
+                        <h3>Noord-Holland bereidt zich voor op LPD</h3>
+                    </div>
+                    <div class="jumbotron3 text-left">
+                        <h4>StB</h4>
+                        <img src="img/coniferen.jpg" style="width: 100%; margin-bottom: 20px">
+                        <br/>
+
+                    </div>
+                </div>
+                <div class="jumbotron text-center">
+                    <img src="img/someone.gif" style="width: 50%; margin-bottom: 20px">
                 </div>
 
             </div>
-            <div class="col-sm-4">
-                    <div class="jumbotron text-center">
-                            <img src="img/logo.png" style="width: 40%; margin-bottom: 20px">
-                        </div>
+
+            <div class="col-sm-3">
+                <div id="LPD-tease">
+                    <div class="jumbotron2 text-center">
+                        <h3>Demonisatie LPD bereikt hoogtepunt</h3>
+                    </div>
                     <div class="jumbotron3 text-left">
-                            Bericht aan de bezoekers<br />
-                            <br />
-    
-                            Wij moeten u tot onze grote spijt meedelen dat er tijdens het Lichtdiner veel is misgegaan, en willen u hiervan graag op de hoogte stellen. Het betreft grote fouten die op de avond van negentien januari aan de deur zijn gemaakt. Wij nemen hier alle verantwoordelijkheid voor. Nadat de vooringang enige tijd door de organisatie bemand was is er nagelaten de voordeur onder constant toezicht te houden, waardoor het controleren van de gastenlijst niet voldoende is gebeurd. Dit heeft grote gevolgen gehad voor de rest van het diner, en wij zullen niet proberen goed te praten wat wij hadden kunnen, en moeten, voorkomen.
-                            Omdat wij transparant met u willen zijn volgt hier een grafische omschrijving van het voorgevallene.<br />
-                            <br />
-                            Toen het diner zijn hoogtepunt van comfortabele gevoelens naderde en iedereen tevreden leek, zijn de organiserende leden in buitensporige mate opgegaan in de losse atmosfeer, en hebben zij de focus verloren. Hierdoor was het mogelijk dat, terwijl de gasten zich onder de uit hun heupflacons afkomstige verdovende walm veilig waanden, zevenentwintig ongenode gasten hun kans schoon roken en door de onbemande voordeur richting de eerste verdieping zijn geslopen. Nietsvermoedend stond het volk te borrelen, toen het werd overvallen door een glibberige bende, en in luttele seconden transformeerde dit zich tot een storm van zilveren glinsteringen. De indringers wierpen zich als ware kamikazevliegtuigen op de mensen, die allen intussen bewust waren van het gevaar. Dit bewustzijn mocht niet baten, want de vizieren stonden vanavond op scherp, en de bomen boden helaas niet voldoende beschutting voor de meer dan honderd aanwezigen.
-                            <br />
-                            <br />
-                            De schade werd aan allen duidelijk toen de storm ging liggen. Vele gasten liepen letsel aan hun hoofd en schouders op, en mensen die door knie- en teenschade dit vermogen te lopen kwijt waren werden op lichte picknicktafels meegenomen. De gewonden stroomden de toiletten binnen waar de wonden met enkel water en toiletpapier werden verzorgd. Door deze rappe zelfhulp zijn fatale gevolgen gelukkig voorkomen, en de fysieke en emotionele littekens zijn slechts als een indicator van het geweld dat zich op deze avond heeft afgespeeld achtergebleven.
-                            <br />
-                            <br />
-                            De sneaky motherfuckers hebben zich destijds in een laf vertoon tussen verwarmingen en achter de bar verscholen, en hebben daar tot wel dagenlang gelegen. Inmiddels is, tot ieders grote opluchting, de laatste overlevende indringer enkele dagen na het diner opgepakt, en we hebben goede hoop dat deze overwinning een waarschuwing aan allen die ons kwaad toewensen is geweest en genoeg is om dergelijke acties in de kiem te smoren. Dit is echter bij lange na niet genoeg voor ons om onszelf te kunnen vergeven.
-                            Vanwege de steken die wij hebben laten vallen, hebben wij besloten de functie van organisatie van het Lichtdiner permanent naast ons neer te leggen, en deze over te laten aan een nieuwe generatie.
-                            <br />
-                            <br />
-                            Bedankt voor uw aandacht.<br />
-                            Licht ‘17
+                        <h4>toekomst in gevaar?</h4>
+                        Het Lichte Pikken Diner (LPD) van vorig jaar was een zwarte dag in de geschiedenis. <br/>In een
+                        poging deze duisternis iets te verlichten...
+                        <br/><i>ging het bijna mis. Hing de toekomst van het LPD aan een zijden draadje? Lees <a
+                            href="wvttk.html">hier</a> hoe het ging </i>
                     </div>
-
                 </div>
-    </div>
-                <div id="Flacon" class="container-fluid text-center">
-                    <div id="blokken" class="row">
-                        <div class="col-sm-4">
-
-                            <div id="coniferen">
-                                <div class="jumbotron2 text-center">
-                                    <h3>Noord-Holland bereidt zich voor op LPD</h3>
-                                </div>
-                                <div class="jumbotron3 text-left">
-                                    <h4>StB</h4>
-                                    <img src="img/coniferen.jpg" style="width: 100%; margin-bottom: 20px">
-                                    <br />
-
-                                </div>
+                <div class="jumbotron text-center">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" style="z-index:0">
+                            <div class="carousel-item active">
+                                <img class="d-block" src="img/flacon/flacon2.JPG" alt="First slide"
+                                     style="height: 300px">
                             </div>
-                            <div class="jumbotron text-center">
-                                <img src="img/someone.gif" style="width: 50%; margin-bottom: 20px">
+                            <div class="carousel-item">
+                                <img class="d-block" src="img/flacon/flacon3.JPG" alt="Second slide"
+                                     style="height: 300px">
                             </div>
-
+                            <div class="carousel-item">
+                                <img class="d-block" src="img/flacon/flacon4.JPG" alt="Third slide"
+                                     style="height: 300px">
+                            </div>
                         </div>
-
-                        <div class="col-sm-3">
-                            <div id="LPD-tease">
-                                <div class="jumbotron2 text-center">
-                                    <h3>Demonisatie LPD bereikt hoogtepunt</h3>
-                                </div>
-                                <div class="jumbotron3 text-left">
-                                    <h4>toekomst in gevaar?</h4>
-                                    Het Lichte Pikken Diner (LPD) van vorig jaar was een zwarte dag in de geschiedenis. <br />In een poging deze duisternis iets te verlichten...
-                                    <br /><i>ging het bijna mis. Hing de toekomst van het LPD aan een zijden draadje? Lees <a href="wvttk.html">hier</a> hoe het ging </i>
-                                </div>
-                            </div>
-                            <div class="jumbotron text-center">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" style="z-index:0">
-                                        <div class="carousel-item active">
-                                            <img class="d-block" src="img/flacon/flacon2.JPG" alt="First slide" style="height: 300px">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block" src="img/flacon/flacon3.JPG" alt="Second slide" style="height: 300px">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block" src="img/flacon/flacon4.JPG" alt="Third slide" style="height: 300px">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div class="col-sm-5 ">
-                            <div class="jumbotron text-center">
-                                <h2>Handig tijdens de wintersport!?</h2>
-                                <i>Limited edition Oudlicht heupflacon</i><br />
-                                <h3>Ben je het ook zat om tijdens het Lichtepikkendinner<br /> met een literfles whiskey in je binnenzak te staan? </h3> <br />
-                                <h3>Heb je ook altijd zo'n dorst na de weging? </h3> <br />
-                                <img src="img/flacon/flacon1.JPG" style="width: 80%; margin-bottom: 20px">
-                                <br />
-                                <br />
-                                Je kan nu je bidoncollectie aanvullen met deze classy heupflacon met Oudlicht lasergravure.<br />
-                                Voor maar €13.- is deze exclusieve gadget in jouw bezit.<br />
-                                Stuur een mailtje of vul onderstaande formulier in voor rekeningnummer <br />
-                                of overige vragen en maak het geld over. Dan heb je tijdens de wintersport een gevulde binnenzak.<br />
-                                Let op: Op-is-op.
-                            </div>
-
-                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                           data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                           data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <div id="tweedeblok" class="row">
-                        <div class="col-sm-7">
+                </div>
 
-                            <div id="NKIR">
-                                <div class="jumbotron2 text-center">
-                                    <h3>Oer-Hollands kettingtrekken</h3>
+
+            </div>
+
+            <div class="col-sm-5 ">
+                <div class="jumbotron text-center">
+                    <h2>Handig tijdens de wintersport!?</h2>
+                    <i>Limited edition Oudlicht heupflacon</i><br/>
+                    <h3>Ben je het ook zat om tijdens het Lichtepikkendinner<br/> met een literfles whiskey in je
+                        binnenzak te staan? </h3> <br/>
+                    <h3>Heb je ook altijd zo'n dorst na de weging? </h3> <br/>
+                    <img src="img/flacon/flacon1.JPG" style="width: 80%; margin-bottom: 20px">
+                    <br/>
+                    <br/>
+                    Je kan nu je bidoncollectie aanvullen met deze classy heupflacon met Oudlicht lasergravure.<br/>
+                    Voor maar €13.- is deze exclusieve gadget in jouw bezit.<br/>
+                    Stuur een mailtje of vul onderstaande formulier in voor rekeningnummer <br/>
+                    of overige vragen en maak het geld over. Dan heb je tijdens de wintersport een gevulde
+                    binnenzak.<br/>
+                    Let op: Op-is-op.
+                </div>
+
+            </div>
+        </div>
+        <div id="tweedeblok" class="row">
+            <div class="col-sm-7">
+
+                <div id="NKIR">
+                    <div class="jumbotron2 text-center">
+                        <h3>Oer-Hollands kettingtrekken</h3>
+                    </div>
+                    <div class="jumbotron3 text-left">
+                        <h4>Soceity-verslaggever Jim Hoffmann</h4>
+                        <img src="img/obbe-nkir.jpg" style="width: 60%; margin-bottom: 20px">
+                        <br/>
+                        <i>11-12-2017</i>
+                        <br/>
+                        Na de recente schermutselingen op het water in Groningen was het afgelopen weekend tijd voor een
+                        Oer-Hollands potje kettingtrekken in ons aller Mokum. Waar de Hel voor Oudlicht bijzonder
+                        voorspoedig verliep met de snelste dagtijd voor <b>Obbe</b>, een puike zesde plek voor
+                        <b>David</b> en een gedeelde eerste plek voor Oud-Oudlichte pik <b>Lennart</b> (nog vaak met
+                        Lichtblauwe trui te bewonderen), is het binnenroeien in de Sporthallen Zuid toch net even andere
+                        koek.
+                        <br/>
+                        <b>Boordgroep</b><br/>
+                        Namens de boordgroep van Oudlicht kwamen vijf heren in actie. Van hen wist <b>Ewout</b> de
+                        magische 06:40 grens te slechtten door een subtiele 06:39.6 op de klokken te zetten. <b>Edgar en
+                        Luca</b> hielden het even spannend, maar laatstgenoemde wist toch 1.6 seconden eerder over de
+                        virtuele finishlijn te komen. Dat lichte pikken tempo kunnen draaien werd laten zien door <b>Koen</b>,
+                        die misschien niet de snelste tijd wist te ergometeren maar dat wel in een soepele tempo 35
+                        deed. Wat betreft <b>Werner</b> zijn race zullen we niet te diep in gaan op de gevaren tijd, wel
+                        graag aandacht voor onderstaand videofragment, een voorbeeld qua eindeloos doorzettingsvermogen
+                        en pit kunnen we zeker waarderen!
+                        <br/>
+                        <b>Scullgroep</b><br/>
+                        De grote, jonge jongens van Oudlicht kwamen later op de dag in actie in het LSB-veld.
+                        <b>David</b> heeft wederom de zesde plek behaald, en met een race met knappe negatieve splits
+                        06:30.5 weten te varen. Publiekslieveling is echter opnieuw <b>Obbe</b> geworden. Door van
+                        tevoren al getipt te zijn als kanshebber en zelf aan te hebben geven het Nederlands record aan
+                        te willen vallen waren de verwachtingen hooggespannen. Obbe heeft hier zeker aan weten te
+                        voldoen door op haast klinische wijze, op <b>één-tiende van een seconde het Nederlands record te
+                        verbeteren:</b> 06:15.5!
+                        <br/>
+                        Inmiddels is het weer gewoon tijd voor gezelligheid, vrijdag <span
+                            style="color:#00ffff">LPB!</span>
+                        <br/>
+                        <br/>
+                        <i>PS Kleine shout-out naar de <b>Eerstejaars</b>: 06:59.6, dat biedt volop perspectief</i>
+                        <br/>
+                        <i>PPS Grote shout-out naar <span style="color:#00ffff">de fans</span>, wij vonden het helemaal
+                            mooi</i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-5">
+                <div id="raceObbe" class="jumbotron">
+                    <div class="container-fluid">
+                        <h2>Sat 14:00 - LSB, SB Heat 1</h2>
+
+
+                        <!--
+                                <table class="timeteam">
+
+                                    <tbody>
+                                        <tr><th class="code">pos.</th><th class="code">code</th><th class="name">entry<br><span class="smallrow">stroke</span></th><th class="code">event</th><th colspan="2" class="location">500m</th><th colspan="2" class="location">1000m<br><span class="smallrow">interval</span></th><th colspan="2" class="location">1500m<br><span class="smallrow">interval</span></th><th colspan="2" class="location finish">finish<br><span class="smallrow">interval</span></th><th class="number">difference</th><th style="width: 30px; text-align: center;"></th></tr>
+
+                                        <tr class="even"><td>1.</td><td><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">SKO</a></td><td><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">Skøll 2</a></td><td nowrap="nowrap"><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">LSB</a></td><td style="text-align: right;">01:33.6</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;">03:08.2</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;">04:41.8</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;">06:15.5</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;"></td><td style="width: 30px; text-align: center; vertical-align: middle;" rowspan="2"><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank"><svg class="svg-inline--fa fa-chart-line fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="fas" data-icon="chart-line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M500 384c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v308h436zM456 96H344c-21.4 0-32.1 25.9-17 41l32.9 32.9-72 72.9-55.6-55.6c-4.7-4.7-12.2-4.7-16.9 0L96.4 305c-4.7 4.6-4.8 12.2-.2 16.9l28.5 29.4c4.7 4.8 12.4 4.9 17.1.1l82.1-82.1 55.5 55.5c4.7 4.7 12.3 4.7 17 0l109.2-109.2L439 249c15.1 15.1 41 4.4 41-17V120c0-13.3-10.7-24-24-24z"></path></svg><!-- <i class="fas fa-chart-line"></i> -->
+                        </a></td></tr>
+
+                        <!--      <tr class="even smallrow"><td></td><td></td><td>Obbe Tibben&nbsp;</td><td></td><td colspan="2"></td><td style="text-align: right;">01:34.6</td><td></td><td style="text-align: right;">01:33.6</td><td></td><td style="text-align: right;">01:33.7</td><td></td><td style="text-align: right;">36.5&nbsp;spm</td></tr>
+                            </tbody>
+                        </table> -->
+                        <a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php"
+                           target="_blank">Obbe Tibben</a>
+                        <div id="chart_container" style="position: relative; height: 300px;">
+                            <div class="chartjs-size-monitor"
+                                 style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+                                <div class="chartjs-size-monitor-expand"
+                                     style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                    <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div>
                                 </div>
-                                <div class="jumbotron3 text-left">
-                                    <h4>Soceity-verslaggever Jim Hoffmann</h4>
-                                    <img src="img/obbe-nkir.jpg" style="width: 60%; margin-bottom: 20px">
-                                    <br />
-                                    <i>11-12-2017</i>
-                                    <br />
-                                    Na de recente schermutselingen op het water in Groningen was het afgelopen weekend tijd voor een Oer-Hollands potje kettingtrekken in ons aller Mokum. Waar de Hel voor Oudlicht bijzonder voorspoedig verliep met de snelste dagtijd voor <b>Obbe</b>, een puike zesde plek voor <b>David</b> en een gedeelde eerste plek voor Oud-Oudlichte pik <b>Lennart</b> (nog vaak met Lichtblauwe trui te bewonderen), is het binnenroeien in de Sporthallen Zuid toch net even andere koek.
-                                    <br />
-                                    <b>Boordgroep</b><br />
-                                    Namens de boordgroep van Oudlicht kwamen vijf heren in actie. Van hen wist <b>Ewout</b> de magische 06:40 grens te slechtten door een subtiele 06:39.6 op de klokken te zetten. <b>Edgar en Luca</b> hielden het even spannend, maar laatstgenoemde wist toch 1.6 seconden eerder over de virtuele finishlijn te komen. Dat lichte pikken tempo kunnen draaien werd laten zien door <b>Koen</b>, die misschien niet de snelste tijd wist te ergometeren maar dat wel in een soepele tempo 35 deed. Wat betreft <b>Werner</b> zijn race zullen we niet te diep in gaan op de gevaren tijd, wel graag aandacht voor onderstaand videofragment, een voorbeeld qua eindeloos doorzettingsvermogen en pit kunnen we zeker waarderen!
-                                    <br />
-                                    <b>Scullgroep</b><br />
-                                    De grote, jonge jongens van Oudlicht kwamen later op de dag in actie in het LSB-veld. <b>David</b> heeft wederom de zesde plek behaald, en met een race met knappe negatieve splits 06:30.5 weten te varen. Publiekslieveling is echter opnieuw <b>Obbe</b> geworden. Door van tevoren al getipt te zijn als kanshebber en zelf aan te hebben geven het Nederlands record aan te willen vallen waren de verwachtingen hooggespannen. Obbe heeft hier zeker aan weten te voldoen door op haast klinische wijze, op <b>één-tiende van een seconde het Nederlands record te verbeteren:</b> 06:15.5!
-                                    <br />
-                                    Inmiddels is het weer gewoon tijd voor gezelligheid, vrijdag <span style="color:#00ffff">LPB!</span>
-                                    <br />
-                                    <br />
-                                    <i>PS Kleine shout-out naar de <b>Eerstejaars</b>: 06:59.6, dat biedt volop perspectief</i>
-                                    <br />
-                                    <i>PPS Grote shout-out naar <span style="color:#00ffff">de fans</span>, wij vonden het helemaal mooi</i>
+                                <div class="chartjs-size-monitor-shrink"
+                                     style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                    <div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>
                                 </div>
                             </div>
 
+                            <canvas id="chart" width="600" height="300" class="chartjs-render-monitor"
+                                    style="display: block; width: 600px; height: 300px;"></canvas>
+
+                            <!--        <a style="position: absolute; top: 7px; right: 5px;">Toggle graph fullscreen</a>-->
                         </div>
-                        <div class="col-sm-5">
-                            <div id="raceObbe" class="jumbotron">
-                                <div class="container-fluid">
-                                    <h2>Sat 14:00 - LSB, SB Heat 1</h2>
 
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/moment.min.js"
+                                integrity="sha256-1QLeCbUvEo+9OEl5Eit/RqXkjznbjHvc71qnn2mp1C0="
+                                crossorigin="anonymous"></script>
 
-                                    <!--
-                                            <table class="timeteam">
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"
+                                integrity="sha256-c0m8xzX5oOBawsnLVpHnU2ieISOvxi584aNElFl2W6M="
+                                crossorigin="anonymous"></script>
 
-                                                <tbody>
-                                                    <tr><th class="code">pos.</th><th class="code">code</th><th class="name">entry<br><span class="smallrow">stroke</span></th><th class="code">event</th><th colspan="2" class="location">500m</th><th colspan="2" class="location">1000m<br><span class="smallrow">interval</span></th><th colspan="2" class="location">1500m<br><span class="smallrow">interval</span></th><th colspan="2" class="location finish">finish<br><span class="smallrow">interval</span></th><th class="number">difference</th><th style="width: 30px; text-align: center;"></th></tr>
-
-                                                    <tr class="even"><td>1.</td><td><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">SKO</a></td><td><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">Skøll 2</a></td><td nowrap="nowrap"><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">LSB</a></td><td style="text-align: right;">01:33.6</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;">03:08.2</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;">04:41.8</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;">06:15.5</td><td style="text-align: center; font-style: italic;">(1)</td><td style="text-align: right;"></td><td style="width: 30px; text-align: center; vertical-align: middle;" rowspan="2"><a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank"><svg class="svg-inline--fa fa-chart-line fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="fas" data-icon="chart-line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M500 384c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v308h436zM456 96H344c-21.4 0-32.1 25.9-17 41l32.9 32.9-72 72.9-55.6-55.6c-4.7-4.7-12.2-4.7-16.9 0L96.4 305c-4.7 4.6-4.8 12.2-.2 16.9l28.5 29.4c4.7 4.8 12.4 4.9 17.1.1l82.1-82.1 55.5 55.5c4.7 4.7 12.3 4.7 17 0l109.2-109.2L439 249c15.1 15.1 41 4.4 41-17V120c0-13.3-10.7-24-24-24z"></path></svg><!-- <i class="fas fa-chart-line"></i> -->
-                                    </a></td></tr>
-
-                                    <!--      <tr class="even smallrow"><td></td><td></td><td>Obbe Tibben&nbsp;</td><td></td><td colspan="2"></td><td style="text-align: right;">01:34.6</td><td></td><td style="text-align: right;">01:33.6</td><td></td><td style="text-align: right;">01:33.7</td><td></td><td style="text-align: right;">36.5&nbsp;spm</td></tr>
-                                        </tbody>
-                                    </table> -->
-                                    <a href="https://regatta.time-team.nl/nkir/2017/results/h15455803-3ad7-40a0-8777-4f85430839c5.php" target="_blank">Obbe Tibben</a>
-                                    <div id="chart_container" style="position: relative; height: 300px;">
-                                        <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-
-                                        <canvas id="chart" width="600" height="300" class="chartjs-render-monitor" style="display: block; width: 600px; height: 300px;"></canvas>
-
-                                        <!--        <a style="position: absolute; top: 7px; right: 5px;">Toggle graph fullscreen</a>-->
-                                    </div>
-
-                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/moment.min.js" integrity="sha256-1QLeCbUvEo+9OEl5Eit/RqXkjznbjHvc71qnn2mp1C0=" crossorigin="anonymous"></script>
-
-                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js" integrity="sha256-c0m8xzX5oOBawsnLVpHnU2ieISOvxi584aNElFl2W6M=" crossorigin="anonymous"></script>
-
-                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.3.2/screenfull.js" integrity="sha256-61t9J2iva27YDWzHrwpnF+xaIHo2vd19i0SDyJB+nhE=" crossorigin="anonymous"></script>
-                                    <script>
-                           var data = [{ "time": 0, "distance": 0, "pace": null, "stroke_rate": null }, { "time": 0.4, "distance": 0, "pace": null, "stroke_rate": null }, { "time": 2, "distance": 5, "pace": 114, "stroke_rate": null }, { "time": 3, "distance": 10.3, "pace": 94, "stroke_rate": 69 }, { "time": 4.5, "distance": 19.1, "pace": 86, "stroke_rate": 65 }, { "time": 5.5, "distance": 25.1, "pace": 84, "stroke_rate": 62 }, { "time": 7, "distance": 34, "pace": 83, "stroke_rate": 57 }, { "time": 8, "distance": 39.9, "pace": 85, "stroke_rate": 52 }, { "time": 9.5, "distance": 48.5, "pace": 86, "stroke_rate": 47 }, { "time": 10.5, "distance": 54.4, "pace": 86, "stroke_rate": 48 }, { "time": 12, "distance": 63.1, "pace": 85, "stroke_rate": 49 }, { "time": 13, "distance": 69, "pace": 86, "stroke_rate": 48 }, { "time": 14.5, "distance": 77.5, "pace": 87, "stroke_rate": 45 }, { "time": 15.5, "distance": 83.2, "pace": 88, "stroke_rate": 45 }, { "time": 17, "distance": 91.6, "pace": 89, "stroke_rate": 45 }, { "time": 18, "distance": 97.1, "pace": 89, "stroke_rate": 43 }, { "time": 19.5, "distance": 105.4, "pace": 90, "stroke_rate": 43 }, { "time": 20.5, "distance": 110.6, "pace": 90, "stroke_rate": 43 }, { "time": 22, "distance": 118.8, "pace": 93, "stroke_rate": 36 }, { "time": 23, "distance": 124.3, "pace": 93, "stroke_rate": 36 }, { "time": 24.5, "distance": 132.3, "pace": 93, "stroke_rate": 35 }, { "time": 25.5, "distance": 137.5, "pace": 93, "stroke_rate": 35 }, { "time": 27, "distance": 145.5, "pace": 94, "stroke_rate": 35 }, { "time": 28, "distance": 150.9, "pace": 94, "stroke_rate": 35 }, { "time": 29.5, "distance": 158.9, "pace": 93, "stroke_rate": 36 }, { "time": 30.5, "distance": 164.2, "pace": 93, "stroke_rate": 36 }, { "time": 32, "distance": 172.3, "pace": 93, "stroke_rate": 35 }, { "time": 33.5, "distance": 180.5, "pace": 93, "stroke_rate": 35 }, { "time": 34.5, "distance": 185.7, "pace": 93, "stroke_rate": 35 }, { "time": 36, "distance": 193.8, "pace": 93, "stroke_rate": 36 }, { "time": 37, "distance": 199.3, "pace": 93, "stroke_rate": 36 }, { "time": 38.5, "distance": 207.4, "pace": 93, "stroke_rate": 35 }, { "time": 39.5, "distance": 212.5, "pace": 93, "stroke_rate": 35 }, { "time": 41, "distance": 220.5, "pace": 94, "stroke_rate": 35 }, { "time": 42, "distance": 226, "pace": 94, "stroke_rate": 35 }, { "time": 43.5, "distance": 234, "pace": 94, "stroke_rate": 35 }, { "time": 44.5, "distance": 239, "pace": 94, "stroke_rate": 35 }, { "time": 46, "distance": 247.1, "pace": 94, "stroke_rate": 34 }, { "time": 47, "distance": 252.6, "pace": 94, "stroke_rate": 34 }, { "time": 48.5, "distance": 260.6, "pace": 94, "stroke_rate": 35 }, { "time": 49.5, "distance": 265.8, "pace": 94, "stroke_rate": 35 }, { "time": 51, "distance": 274, "pace": 93, "stroke_rate": 34 }, { "time": 52, "distance": 279.4, "pace": 93, "stroke_rate": 35 }, { "time": 53.5, "distance": 287.2, "pace": 93, "stroke_rate": 35 }, { "time": 54.5, "distance": 292.6, "pace": 94, "stroke_rate": 34 }, { "time": 56, "distance": 300.6, "pace": 94, "stroke_rate": 35 }, { "time": 57, "distance": 305.8, "pace": 94, "stroke_rate": 35 }, { "time": 58.5, "distance": 313.7, "pace": 94, "stroke_rate": 35 }, { "time": 59.5, "distance": 319.2, "pace": 94, "stroke_rate": 34 }, { "time": 61, "distance": 327.1, "pace": 95, "stroke_rate": 35 }, { "time": 62, "distance": 332.2, "pace": 95, "stroke_rate": 35 }, { "time": 63.5, "distance": 340.3, "pace": 94, "stroke_rate": 35 }, { "time": 64.5, "distance": 345.9, "pace": 93, "stroke_rate": 35 }, { "time": 66, "distance": 353.7, "pace": 95, "stroke_rate": 34 }, { "time": 67, "distance": 358.8, "pace": 95, "stroke_rate": 34 }, { "time": 68.5, "distance": 366.9, "pace": 95, "stroke_rate": 35 }, { "time": 69.5, "distance": 372.3, "pace": 94, "stroke_rate": 34 }, { "time": 71, "distance": 380.1, "pace": 94, "stroke_rate": 35 }, { "time": 72, "distance": 385.4, "pace": 94, "stroke_rate": 35 }, { "time": 73.5, "distance": 393.4, "pace": 94, "stroke_rate": 34 }, { "time": 75, "distance": 401.3, "pace": 95, "stroke_rate": 34 }, { "time": 76, "distance": 406.4, "pace": 95, "stroke_rate": 34 }, { "time": 77.5, "distance": 414.4, "pace": 95, "stroke_rate": 35 }, { "time": 78.5, "distance": 420, "pace": 94, "stroke_rate": 35 }, { "time": 80, "distance": 427.9, "pace": 94, "stroke_rate": 34 }, { "time": 81, "distance": 433, "pace": 94, "stroke_rate": 34 }, { "time": 82.5, "distance": 441.1, "pace": 94, "stroke_rate": 35 }, { "time": 83.5, "distance": 446.4, "pace": 95, "stroke_rate": 35 }, { "time": 85, "distance": 454.3, "pace": 95, "stroke_rate": 35 }, { "time": 86, "distance": 459.6, "pace": 95, "stroke_rate": 35 }, { "time": 87.5, "distance": 467.7, "pace": 93, "stroke_rate": 35 }, { "time": 88.5, "distance": 473.1, "pace": 93, "stroke_rate": 35 }, { "time": 90, "distance": 481.1, "pace": 93, "stroke_rate": 35 }, { "time": 91, "distance": 486.4, "pace": 93, "stroke_rate": 35 }, { "time": 92.5, "distance": 494.5, "pace": 94, "stroke_rate": 36 }, { "time": 93.5, "distance": 499.8, "pace": 94, "stroke_rate": 35 }, { "time": 95, "distance": 507.7, "pace": 94, "stroke_rate": 35 }, { "time": 96, "distance": 513, "pace": 94, "stroke_rate": 35 }, { "time": 97.5, "distance": 521, "pace": 94, "stroke_rate": 35 }, { "time": 98.5, "distance": 526.3, "pace": 94, "stroke_rate": 35 }, { "time": 100, "distance": 534.2, "pace": 94, "stroke_rate": 35 }, { "time": 101, "distance": 539.7, "pace": 94, "stroke_rate": 35 }, { "time": 102.5, "distance": 547.6, "pace": 94, "stroke_rate": 35 }, { "time": 103.5, "distance": 552.7, "pace": 94, "stroke_rate": 35 }, { "time": 105, "distance": 560.6, "pace": 95, "stroke_rate": 35 }, { "time": 106, "distance": 566.1, "pace": 95, "stroke_rate": 35 }, { "time": 107.5, "distance": 574, "pace": 95, "stroke_rate": 34 }, { "time": 108.5, "distance": 579, "pace": 95, "stroke_rate": 34 }, { "time": 110, "distance": 587, "pace": 95, "stroke_rate": 35 }, { "time": 111, "distance": 592.5, "pace": 94, "stroke_rate": 35 }, { "time": 112.5, "distance": 600.4, "pace": 95, "stroke_rate": 34 }, { "time": 113.5, "distance": 605.5, "pace": 95, "stroke_rate": 34 }, { "time": 115, "distance": 613.4, "pace": 95, "stroke_rate": 34 }, { "time": 116, "distance": 618.8, "pace": 96, "stroke_rate": 34 }, { "time": 117.5, "distance": 626.5, "pace": 96, "stroke_rate": 34 }, { "time": 118.5, "distance": 631.8, "pace": 95, "stroke_rate": 34 }, { "time": 120, "distance": 639.7, "pace": 95, "stroke_rate": 34 }, { "time": 121, "distance": 644.8, "pace": 95, "stroke_rate": 34 }, { "time": 122.5, "distance": 652.7, "pace": 95, "stroke_rate": 35 }, { "time": 123.5, "distance": 658.2, "pace": 95, "stroke_rate": 35 }, { "time": 125, "distance": 666.1, "pace": 95, "stroke_rate": 35 }, { "time": 126, "distance": 671.1, "pace": 95, "stroke_rate": 35 }, { "time": 127.5, "distance": 679, "pace": 95, "stroke_rate": 35 }, { "time": 128.5, "distance": 684.4, "pace": 96, "stroke_rate": 34 }, { "time": 130, "distance": 692.4, "pace": 95, "stroke_rate": 34 }, { "time": 131, "distance": 697.5, "pace": 95, "stroke_rate": 34 }, { "time": 132.5, "distance": 705.5, "pace": 94, "stroke_rate": 35 }, { "time": 133.5, "distance": 710.9, "pace": 94, "stroke_rate": 34 }, { "time": 135, "distance": 718.8, "pace": 95, "stroke_rate": 35 }, { "time": 136, "distance": 724, "pace": 95, "stroke_rate": 35 }, { "time": 137.5, "distance": 731.9, "pace": 95, "stroke_rate": 35 }, { "time": 138.5, "distance": 737.2, "pace": 95, "stroke_rate": 36 }, { "time": 140, "distance": 745.2, "pace": 93, "stroke_rate": 36 }, { "time": 141, "distance": 750.6, "pace": 93, "stroke_rate": 36 }, { "time": 142.5, "distance": 758.7, "pace": 93, "stroke_rate": 35 }, { "time": 143.5, "distance": 764, "pace": 94, "stroke_rate": 35 }, { "time": 145, "distance": 771.8, "pace": 94, "stroke_rate": 35 }, { "time": 146, "distance": 777.2, "pace": 94, "stroke_rate": 34 }, { "time": 147.5, "distance": 785.2, "pace": 94, "stroke_rate": 35 }, { "time": 148.5, "distance": 790.5, "pace": 94, "stroke_rate": 35 }, { "time": 150, "distance": 798.3, "pace": 94, "stroke_rate": 35 }, { "time": 151, "distance": 803.8, "pace": 94, "stroke_rate": 35 }, { "time": 152.5, "distance": 811.7, "pace": 95, "stroke_rate": 35 }, { "time": 153.5, "distance": 816.7, "pace": 95, "stroke_rate": 35 }, { "time": 155, "distance": 824.6, "pace": 95, "stroke_rate": 34 }, { "time": 156, "distance": 830.1, "pace": 95, "stroke_rate": 34 }, { "time": 157.5, "distance": 838, "pace": 95, "stroke_rate": 34 }, { "time": 158.5, "distance": 843, "pace": 95, "stroke_rate": 34 }, { "time": 160, "distance": 851, "pace": 95, "stroke_rate": 34 }, { "time": 161, "distance": 856.3, "pace": 96, "stroke_rate": 34 }, { "time": 162.5, "distance": 864.1, "pace": 96, "stroke_rate": 34 }, { "time": 163.5, "distance": 869.4, "pace": 95, "stroke_rate": 35 }, { "time": 165, "distance": 877.3, "pace": 96, "stroke_rate": 34 }, { "time": 166, "distance": 882.4, "pace": 96, "stroke_rate": 34 }, { "time": 167.5, "distance": 890.3, "pace": 95, "stroke_rate": 34 }, { "time": 168.5, "distance": 895.9, "pace": 94, "stroke_rate": 35 }, { "time": 170, "distance": 903.8, "pace": 94, "stroke_rate": 35 }, { "time": 171, "distance": 908.8, "pace": 94, "stroke_rate": 35 }, { "time": 172.5, "distance": 916.7, "pace": 95, "stroke_rate": 35 }, { "time": 173.5, "distance": 922.2, "pace": 95, "stroke_rate": 35 }, { "time": 175, "distance": 930.1, "pace": 95, "stroke_rate": 34 }, { "time": 176, "distance": 935.2, "pace": 95, "stroke_rate": 34 }, { "time": 177.5, "distance": 943.2, "pace": 94, "stroke_rate": 35 }, { "time": 178.5, "distance": 948.6, "pace": 95, "stroke_rate": 35 }, { "time": 180.5, "distance": 959.2, "pace": 95, "stroke_rate": 36 }, { "time": 182, "distance": 967.2, "pace": 94, "stroke_rate": 36 }, { "time": 183, "distance": 972.5, "pace": 94, "stroke_rate": 36 }, { "time": 184.5, "distance": 980.5, "pace": 93, "stroke_rate": 37 }, { "time": 185.5, "distance": 986, "pace": 93, "stroke_rate": 37 }, { "time": 187, "distance": 994, "pace": 93, "stroke_rate": 36 }, { "time": 188, "distance": 999.2, "pace": 93, "stroke_rate": 36 }, { "time": 189.5, "distance": 1007, "pace": 94, "stroke_rate": 35 }, { "time": 190.5, "distance": 1012.5, "pace": 95, "stroke_rate": 36 }, { "time": 192, "distance": 1020.5, "pace": 94, "stroke_rate": 36 }, { "time": 193, "distance": 1025.7, "pace": 94, "stroke_rate": 36 }, { "time": 194.5, "distance": 1033.7, "pace": 94, "stroke_rate": 36 }, { "time": 195.5, "distance": 1039.2, "pace": 94, "stroke_rate": 36 }, { "time": 197, "distance": 1047.2, "pace": 94, "stroke_rate": 35 }, { "time": 198, "distance": 1052.3, "pace": 94, "stroke_rate": 35 }, { "time": 199.5, "distance": 1060.2, "pace": 94, "stroke_rate": 35 }, { "time": 200.5, "distance": 1065.8, "pace": 94, "stroke_rate": 35 }, { "time": 202, "distance": 1073.7, "pace": 94, "stroke_rate": 36 }, { "time": 203, "distance": 1078.8, "pace": 94, "stroke_rate": 36 }, { "time": 204.4, "distance": 1086.7, "pace": 94, "stroke_rate": 35 }, { "time": 205.5, "distance": 1092.3, "pace": 95, "stroke_rate": 35 }, { "time": 207, "distance": 1100.2, "pace": 94, "stroke_rate": 35 }, { "time": 208, "distance": 1105.3, "pace": 94, "stroke_rate": 35 }, { "time": 209.5, "distance": 1113.4, "pace": 94, "stroke_rate": 35 }, { "time": 210.5, "distance": 1118.9, "pace": 94, "stroke_rate": 35 }, { "time": 212, "distance": 1126.9, "pace": 93, "stroke_rate": 35 }, { "time": 213, "distance": 1132.1, "pace": 93, "stroke_rate": 35 }, { "time": 214.5, "distance": 1140.2, "pace": 94, "stroke_rate": 36 }, { "time": 215.5, "distance": 1145.6, "pace": 94, "stroke_rate": 36 }, { "time": 217, "distance": 1153.6, "pace": 93, "stroke_rate": 36 }, { "time": 218, "distance": 1158.9, "pace": 93, "stroke_rate": 36 }, { "time": 219.5, "distance": 1167, "pace": 93, "stroke_rate": 35 }, { "time": 220.5, "distance": 1172.4, "pace": 94, "stroke_rate": 36 }, { "time": 222, "distance": 1180.3, "pace": 94, "stroke_rate": 35 }, { "time": 222.9, "distance": 1185.5, "pace": 94, "stroke_rate": 35 }, { "time": 224.4, "distance": 1193.6, "pace": 95, "stroke_rate": 35 }, { "time": 225.5, "distance": 1199, "pace": 93, "stroke_rate": 35 }, { "time": 227, "distance": 1207, "pace": 93, "stroke_rate": 35 }, { "time": 227.9, "distance": 1212.3, "pace": 93, "stroke_rate": 36 }, { "time": 229.4, "distance": 1220.4, "pace": 94, "stroke_rate": 35 }, { "time": 230.5, "distance": 1225.7, "pace": 93, "stroke_rate": 36 }, { "time": 232, "distance": 1233.7, "pace": 93, "stroke_rate": 36 }, { "time": 233.5, "distance": 1241.6, "pace": 93, "stroke_rate": 36 }, { "time": 234.5, "distance": 1247.3, "pace": 93, "stroke_rate": 36 }, { "time": 236, "distance": 1255.3, "pace": 93, "stroke_rate": 35 }, { "time": 237, "distance": 1260.5, "pace": 93, "stroke_rate": 35 }, { "time": 238.4, "distance": 1268.5, "pace": 93, "stroke_rate": 36 }, { "time": 239.5, "distance": 1274.1, "pace": 93, "stroke_rate": 37 }, { "time": 241, "distance": 1282.2, "pace": 93, "stroke_rate": 36 }, { "time": 242, "distance": 1287.3, "pace": 93, "stroke_rate": 36 }, { "time": 243.4, "distance": 1295.3, "pace": 93, "stroke_rate": 36 }, { "time": 244.5, "distance": 1300.9, "pace": 93, "stroke_rate": 37 }, { "time": 245.9, "distance": 1309, "pace": 93, "stroke_rate": 36 }, { "time": 247, "distance": 1314.2, "pace": 93, "stroke_rate": 36 }, { "time": 248.5, "distance": 1322.1, "pace": 93, "stroke_rate": 36 }, { "time": 249.4, "distance": 1327.7, "pace": 94, "stroke_rate": 35 }, { "time": 251, "distance": 1335.8, "pace": 93, "stroke_rate": 36 }, { "time": 252, "distance": 1341, "pace": 93, "stroke_rate": 36 }, { "time": 253.5, "distance": 1349, "pace": 93, "stroke_rate": 36 }, { "time": 254.4, "distance": 1354.5, "pace": 93, "stroke_rate": 36 }, { "time": 255.9, "distance": 1362.6, "pace": 93, "stroke_rate": 36 }, { "time": 257, "distance": 1367.8, "pace": 93, "stroke_rate": 36 }, { "time": 258.4, "distance": 1375.7, "pace": 94, "stroke_rate": 35 }, { "time": 259.5, "distance": 1381.3, "pace": 94, "stroke_rate": 36 }, { "time": 261, "distance": 1389.3, "pace": 93, "stroke_rate": 36 }, { "time": 262, "distance": 1394.6, "pace": 93, "stroke_rate": 36 }, { "time": 263.4, "distance": 1402.6, "pace": 93, "stroke_rate": 38 }, { "time": 264.4, "distance": 1408.2, "pace": 93, "stroke_rate": 36 }, { "time": 265.9, "distance": 1416.3, "pace": 93, "stroke_rate": 36 }, { "time": 267, "distance": 1421.4, "pace": 93, "stroke_rate": 36 }, { "time": 268.5, "distance": 1429.4, "pace": 93, "stroke_rate": 35 }, { "time": 269.4, "distance": 1434.9, "pace": 94, "stroke_rate": 35 }, { "time": 270.9, "distance": 1442.9, "pace": 94, "stroke_rate": 36 }, { "time": 271.9, "distance": 1448, "pace": 94, "stroke_rate": 36 }, { "time": 273.4, "distance": 1456, "pace": 94, "stroke_rate": 35 }, { "time": 274.4, "distance": 1461.5, "pace": 94, "stroke_rate": 36 }, { "time": 276, "distance": 1469.5, "pace": 94, "stroke_rate": 35 }, { "time": 277.4, "distance": 1477.4, "pace": 94, "stroke_rate": 36 }, { "time": 278.4, "distance": 1482.6, "pace": 94, "stroke_rate": 36 }, { "time": 279.9, "distance": 1490.6, "pace": 94, "stroke_rate": 35 }, { "time": 280.9, "distance": 1495.9, "pace": 95, "stroke_rate": 36 }, { "time": 282.5, "distance": 1503.8, "pace": 95, "stroke_rate": 35 }, { "time": 283.4, "distance": 1509.1, "pace": 95, "stroke_rate": 35 }, { "time": 284.9, "distance": 1517.2, "pace": 94, "stroke_rate": 36 }, { "time": 285.9, "distance": 1522.5, "pace": 94, "stroke_rate": 35 }, { "time": 287.4, "distance": 1530.3, "pace": 94, "stroke_rate": 35 }, { "time": 288.4, "distance": 1535.6, "pace": 95, "stroke_rate": 35 }, { "time": 289.9, "distance": 1543.5, "pace": 96, "stroke_rate": 35 }, { "time": 290.9, "distance": 1548.7, "pace": 95, "stroke_rate": 35 }, { "time": 292.4, "distance": 1556.5, "pace": 95, "stroke_rate": 35 }, { "time": 293.4, "distance": 1561.9, "pace": 95, "stroke_rate": 36 }, { "time": 294.9, "distance": 1569.8, "pace": 95, "stroke_rate": 35 }, { "time": 295.9, "distance": 1574.9, "pace": 95, "stroke_rate": 36 }, { "time": 297.5, "distance": 1582.8, "pace": 95, "stroke_rate": 36 }, { "time": 298.5, "distance": 1588.2, "pace": 95, "stroke_rate": 35 }, { "time": 299.9, "distance": 1596.1, "pace": 95, "stroke_rate": 35 }, { "time": 300.9, "distance": 1601.1, "pace": 95, "stroke_rate": 35 }, { "time": 302.4, "distance": 1608.8, "pace": 96, "stroke_rate": 35 }, { "time": 303.4, "distance": 1614.2, "pace": 96, "stroke_rate": 34 }, { "time": 304.9, "distance": 1622, "pace": 96, "stroke_rate": 35 }, { "time": 305.9, "distance": 1627, "pace": 96, "stroke_rate": 35 }, { "time": 307.4, "distance": 1634.9, "pace": 96, "stroke_rate": 35 }, { "time": 308.4, "distance": 1640.3, "pace": 95, "stroke_rate": 36 }, { "time": 309.9, "distance": 1648.2, "pace": 95, "stroke_rate": 36 }, { "time": 310.9, "distance": 1653.3, "pace": 95, "stroke_rate": 36 }, { "time": 312.4, "distance": 1661.1, "pace": 95, "stroke_rate": 36 }, { "time": 313.4, "distance": 1666.5, "pace": 96, "stroke_rate": 35 }, { "time": 314.9, "distance": 1674.3, "pace": 96, "stroke_rate": 37 }, { "time": 315.9, "distance": 1679.3, "pace": 96, "stroke_rate": 37 }, { "time": 317.4, "distance": 1687.2, "pace": 96, "stroke_rate": 37 }, { "time": 318.9, "distance": 1695, "pace": 96, "stroke_rate": 36 }, { "time": 319.9, "distance": 1700.4, "pace": 96, "stroke_rate": 36 }, { "time": 321.4, "distance": 1708.2, "pace": 96, "stroke_rate": 36 }, { "time": 322.4, "distance": 1713.2, "pace": 96, "stroke_rate": 36 }, { "time": 323.9, "distance": 1721, "pace": 96, "stroke_rate": 36 }, { "time": 324.9, "distance": 1726.3, "pace": 96, "stroke_rate": 35 }, { "time": 326.4, "distance": 1734.1, "pace": 97, "stroke_rate": 36 }, { "time": 327.4, "distance": 1739.1, "pace": 97, "stroke_rate": 36 }, { "time": 328.9, "distance": 1746.9, "pace": 97, "stroke_rate": 37 }, { "time": 329.9, "distance": 1752.4, "pace": 95, "stroke_rate": 37 }, { "time": 331.4, "distance": 1760.5, "pace": 94, "stroke_rate": 38 }, { "time": 332.4, "distance": 1765.7, "pace": 94, "stroke_rate": 38 }, { "time": 333.9, "distance": 1773.7, "pace": 93, "stroke_rate": 39 }, { "time": 334.9, "distance": 1779.2, "pace": 93, "stroke_rate": 38 }, { "time": 336.4, "distance": 1787.4, "pace": 92, "stroke_rate": 40 }, { "time": 337.4, "distance": 1793, "pace": 91, "stroke_rate": 41 }, { "time": 338.9, "distance": 1801.2, "pace": 91, "stroke_rate": 41 }, { "time": 339.9, "distance": 1806.6, "pace": 91, "stroke_rate": 41 }, { "time": 341.4, "distance": 1814.7, "pace": 92, "stroke_rate": 40 }, { "time": 342.4, "distance": 1820.1, "pace": 92, "stroke_rate": 40 }, { "time": 343.9, "distance": 1828.2, "pace": 93, "stroke_rate": 41 }, { "time": 344.9, "distance": 1833.8, "pace": 93, "stroke_rate": 40 }, { "time": 346.4, "distance": 1841.8, "pace": 93, "stroke_rate": 38 }, { "time": 347.4, "distance": 1847.1, "pace": 93, "stroke_rate": 38 }, { "time": 348.9, "distance": 1855.2, "pace": 92, "stroke_rate": 39 }, { "time": 349.9, "distance": 1860.7, "pace": 92, "stroke_rate": 39 }, { "time": 351.4, "distance": 1868.8, "pace": 93, "stroke_rate": 38 }, { "time": 352.4, "distance": 1874.2, "pace": 93, "stroke_rate": 40 }, { "time": 353.9, "distance": 1882.3, "pace": 93, "stroke_rate": 41 }, { "time": 354.9, "distance": 1887.6, "pace": 93, "stroke_rate": 41 }, { "time": 356.4, "distance": 1895.8, "pace": 92, "stroke_rate": 40 }, { "time": 357.4, "distance": 1901.2, "pace": 92, "stroke_rate": 42 }, { "time": 358.9, "distance": 1909.5, "pace": 91, "stroke_rate": 41 }, { "time": 359.9, "distance": 1915.2, "pace": 90, "stroke_rate": 43 }, { "time": 361.4, "distance": 1923.5, "pace": 90, "stroke_rate": 44 }, { "time": 362.4, "distance": 1928.9, "pace": 91, "stroke_rate": 41 }, { "time": 363.9, "distance": 1937.2, "pace": 91, "stroke_rate": 43 }, { "time": 364.9, "distance": 1942.6, "pace": 91, "stroke_rate": 43 }, { "time": 366.4, "distance": 1950.9, "pace": 91, "stroke_rate": 44 }, { "time": 368.4, "distance": 1961.9, "pace": 91, "stroke_rate": 43 }, { "time": 369.4, "distance": 1967.4, "pace": 91, "stroke_rate": 42 }, { "time": 370.9, "distance": 1975.6, "pace": 92, "stroke_rate": 42 }, { "time": 371.9, "distance": 1980.8, "pace": 92, "stroke_rate": 42 }, { "time": 373.4, "distance": 1989, "pace": 92, "stroke_rate": 42 }, { "time": 374.4, "distance": 1994.4, "pace": 92, "stroke_rate": 42 }, { "time": 375.5, "distance": 2000, "pace": 93, "stroke_rate": 42 }];
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.3.2/screenfull.js"
+                                integrity="sha256-61t9J2iva27YDWzHrwpnF+xaIHo2vd19i0SDyJB+nhE="
+                                crossorigin="anonymous"></script>
+                        <script>
+                            var data = [{"time": 0, "distance": 0, "pace": null, "stroke_rate": null}, {
+                                "time": 0.4,
+                                "distance": 0,
+                                "pace": null,
+                                "stroke_rate": null
+                            }, {"time": 2, "distance": 5, "pace": 114, "stroke_rate": null}, {
+                                "time": 3,
+                                "distance": 10.3,
+                                "pace": 94,
+                                "stroke_rate": 69
+                            }, {"time": 4.5, "distance": 19.1, "pace": 86, "stroke_rate": 65}, {
+                                "time": 5.5,
+                                "distance": 25.1,
+                                "pace": 84,
+                                "stroke_rate": 62
+                            }, {"time": 7, "distance": 34, "pace": 83, "stroke_rate": 57}, {
+                                "time": 8,
+                                "distance": 39.9,
+                                "pace": 85,
+                                "stroke_rate": 52
+                            }, {"time": 9.5, "distance": 48.5, "pace": 86, "stroke_rate": 47}, {
+                                "time": 10.5,
+                                "distance": 54.4,
+                                "pace": 86,
+                                "stroke_rate": 48
+                            }, {"time": 12, "distance": 63.1, "pace": 85, "stroke_rate": 49}, {
+                                "time": 13,
+                                "distance": 69,
+                                "pace": 86,
+                                "stroke_rate": 48
+                            }, {"time": 14.5, "distance": 77.5, "pace": 87, "stroke_rate": 45}, {
+                                "time": 15.5,
+                                "distance": 83.2,
+                                "pace": 88,
+                                "stroke_rate": 45
+                            }, {"time": 17, "distance": 91.6, "pace": 89, "stroke_rate": 45}, {
+                                "time": 18,
+                                "distance": 97.1,
+                                "pace": 89,
+                                "stroke_rate": 43
+                            }, {"time": 19.5, "distance": 105.4, "pace": 90, "stroke_rate": 43}, {
+                                "time": 20.5,
+                                "distance": 110.6,
+                                "pace": 90,
+                                "stroke_rate": 43
+                            }, {"time": 22, "distance": 118.8, "pace": 93, "stroke_rate": 36}, {
+                                "time": 23,
+                                "distance": 124.3,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 24.5, "distance": 132.3, "pace": 93, "stroke_rate": 35}, {
+                                "time": 25.5,
+                                "distance": 137.5,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 27, "distance": 145.5, "pace": 94, "stroke_rate": 35}, {
+                                "time": 28,
+                                "distance": 150.9,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 29.5, "distance": 158.9, "pace": 93, "stroke_rate": 36}, {
+                                "time": 30.5,
+                                "distance": 164.2,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 32, "distance": 172.3, "pace": 93, "stroke_rate": 35}, {
+                                "time": 33.5,
+                                "distance": 180.5,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 34.5, "distance": 185.7, "pace": 93, "stroke_rate": 35}, {
+                                "time": 36,
+                                "distance": 193.8,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 37, "distance": 199.3, "pace": 93, "stroke_rate": 36}, {
+                                "time": 38.5,
+                                "distance": 207.4,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 39.5, "distance": 212.5, "pace": 93, "stroke_rate": 35}, {
+                                "time": 41,
+                                "distance": 220.5,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 42, "distance": 226, "pace": 94, "stroke_rate": 35}, {
+                                "time": 43.5,
+                                "distance": 234,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 44.5, "distance": 239, "pace": 94, "stroke_rate": 35}, {
+                                "time": 46,
+                                "distance": 247.1,
+                                "pace": 94,
+                                "stroke_rate": 34
+                            }, {"time": 47, "distance": 252.6, "pace": 94, "stroke_rate": 34}, {
+                                "time": 48.5,
+                                "distance": 260.6,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 49.5, "distance": 265.8, "pace": 94, "stroke_rate": 35}, {
+                                "time": 51,
+                                "distance": 274,
+                                "pace": 93,
+                                "stroke_rate": 34
+                            }, {"time": 52, "distance": 279.4, "pace": 93, "stroke_rate": 35}, {
+                                "time": 53.5,
+                                "distance": 287.2,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 54.5, "distance": 292.6, "pace": 94, "stroke_rate": 34}, {
+                                "time": 56,
+                                "distance": 300.6,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 57, "distance": 305.8, "pace": 94, "stroke_rate": 35}, {
+                                "time": 58.5,
+                                "distance": 313.7,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 59.5, "distance": 319.2, "pace": 94, "stroke_rate": 34}, {
+                                "time": 61,
+                                "distance": 327.1,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 62, "distance": 332.2, "pace": 95, "stroke_rate": 35}, {
+                                "time": 63.5,
+                                "distance": 340.3,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 64.5, "distance": 345.9, "pace": 93, "stroke_rate": 35}, {
+                                "time": 66,
+                                "distance": 353.7,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 67, "distance": 358.8, "pace": 95, "stroke_rate": 34}, {
+                                "time": 68.5,
+                                "distance": 366.9,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 69.5, "distance": 372.3, "pace": 94, "stroke_rate": 34}, {
+                                "time": 71,
+                                "distance": 380.1,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 72, "distance": 385.4, "pace": 94, "stroke_rate": 35}, {
+                                "time": 73.5,
+                                "distance": 393.4,
+                                "pace": 94,
+                                "stroke_rate": 34
+                            }, {"time": 75, "distance": 401.3, "pace": 95, "stroke_rate": 34}, {
+                                "time": 76,
+                                "distance": 406.4,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 77.5, "distance": 414.4, "pace": 95, "stroke_rate": 35}, {
+                                "time": 78.5,
+                                "distance": 420,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 80, "distance": 427.9, "pace": 94, "stroke_rate": 34}, {
+                                "time": 81,
+                                "distance": 433,
+                                "pace": 94,
+                                "stroke_rate": 34
+                            }, {"time": 82.5, "distance": 441.1, "pace": 94, "stroke_rate": 35}, {
+                                "time": 83.5,
+                                "distance": 446.4,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 85, "distance": 454.3, "pace": 95, "stroke_rate": 35}, {
+                                "time": 86,
+                                "distance": 459.6,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 87.5, "distance": 467.7, "pace": 93, "stroke_rate": 35}, {
+                                "time": 88.5,
+                                "distance": 473.1,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 90, "distance": 481.1, "pace": 93, "stroke_rate": 35}, {
+                                "time": 91,
+                                "distance": 486.4,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 92.5, "distance": 494.5, "pace": 94, "stroke_rate": 36}, {
+                                "time": 93.5,
+                                "distance": 499.8,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 95, "distance": 507.7, "pace": 94, "stroke_rate": 35}, {
+                                "time": 96,
+                                "distance": 513,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 97.5, "distance": 521, "pace": 94, "stroke_rate": 35}, {
+                                "time": 98.5,
+                                "distance": 526.3,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 100, "distance": 534.2, "pace": 94, "stroke_rate": 35}, {
+                                "time": 101,
+                                "distance": 539.7,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 102.5, "distance": 547.6, "pace": 94, "stroke_rate": 35}, {
+                                "time": 103.5,
+                                "distance": 552.7,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 105, "distance": 560.6, "pace": 95, "stroke_rate": 35}, {
+                                "time": 106,
+                                "distance": 566.1,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 107.5, "distance": 574, "pace": 95, "stroke_rate": 34}, {
+                                "time": 108.5,
+                                "distance": 579,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 110, "distance": 587, "pace": 95, "stroke_rate": 35}, {
+                                "time": 111,
+                                "distance": 592.5,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 112.5, "distance": 600.4, "pace": 95, "stroke_rate": 34}, {
+                                "time": 113.5,
+                                "distance": 605.5,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 115, "distance": 613.4, "pace": 95, "stroke_rate": 34}, {
+                                "time": 116,
+                                "distance": 618.8,
+                                "pace": 96,
+                                "stroke_rate": 34
+                            }, {"time": 117.5, "distance": 626.5, "pace": 96, "stroke_rate": 34}, {
+                                "time": 118.5,
+                                "distance": 631.8,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 120, "distance": 639.7, "pace": 95, "stroke_rate": 34}, {
+                                "time": 121,
+                                "distance": 644.8,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 122.5, "distance": 652.7, "pace": 95, "stroke_rate": 35}, {
+                                "time": 123.5,
+                                "distance": 658.2,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 125, "distance": 666.1, "pace": 95, "stroke_rate": 35}, {
+                                "time": 126,
+                                "distance": 671.1,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 127.5, "distance": 679, "pace": 95, "stroke_rate": 35}, {
+                                "time": 128.5,
+                                "distance": 684.4,
+                                "pace": 96,
+                                "stroke_rate": 34
+                            }, {"time": 130, "distance": 692.4, "pace": 95, "stroke_rate": 34}, {
+                                "time": 131,
+                                "distance": 697.5,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 132.5, "distance": 705.5, "pace": 94, "stroke_rate": 35}, {
+                                "time": 133.5,
+                                "distance": 710.9,
+                                "pace": 94,
+                                "stroke_rate": 34
+                            }, {"time": 135, "distance": 718.8, "pace": 95, "stroke_rate": 35}, {
+                                "time": 136,
+                                "distance": 724,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 137.5, "distance": 731.9, "pace": 95, "stroke_rate": 35}, {
+                                "time": 138.5,
+                                "distance": 737.2,
+                                "pace": 95,
+                                "stroke_rate": 36
+                            }, {"time": 140, "distance": 745.2, "pace": 93, "stroke_rate": 36}, {
+                                "time": 141,
+                                "distance": 750.6,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 142.5, "distance": 758.7, "pace": 93, "stroke_rate": 35}, {
+                                "time": 143.5,
+                                "distance": 764,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 145, "distance": 771.8, "pace": 94, "stroke_rate": 35}, {
+                                "time": 146,
+                                "distance": 777.2,
+                                "pace": 94,
+                                "stroke_rate": 34
+                            }, {"time": 147.5, "distance": 785.2, "pace": 94, "stroke_rate": 35}, {
+                                "time": 148.5,
+                                "distance": 790.5,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 150, "distance": 798.3, "pace": 94, "stroke_rate": 35}, {
+                                "time": 151,
+                                "distance": 803.8,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 152.5, "distance": 811.7, "pace": 95, "stroke_rate": 35}, {
+                                "time": 153.5,
+                                "distance": 816.7,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 155, "distance": 824.6, "pace": 95, "stroke_rate": 34}, {
+                                "time": 156,
+                                "distance": 830.1,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 157.5, "distance": 838, "pace": 95, "stroke_rate": 34}, {
+                                "time": 158.5,
+                                "distance": 843,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 160, "distance": 851, "pace": 95, "stroke_rate": 34}, {
+                                "time": 161,
+                                "distance": 856.3,
+                                "pace": 96,
+                                "stroke_rate": 34
+                            }, {"time": 162.5, "distance": 864.1, "pace": 96, "stroke_rate": 34}, {
+                                "time": 163.5,
+                                "distance": 869.4,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 165, "distance": 877.3, "pace": 96, "stroke_rate": 34}, {
+                                "time": 166,
+                                "distance": 882.4,
+                                "pace": 96,
+                                "stroke_rate": 34
+                            }, {"time": 167.5, "distance": 890.3, "pace": 95, "stroke_rate": 34}, {
+                                "time": 168.5,
+                                "distance": 895.9,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 170, "distance": 903.8, "pace": 94, "stroke_rate": 35}, {
+                                "time": 171,
+                                "distance": 908.8,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 172.5, "distance": 916.7, "pace": 95, "stroke_rate": 35}, {
+                                "time": 173.5,
+                                "distance": 922.2,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 175, "distance": 930.1, "pace": 95, "stroke_rate": 34}, {
+                                "time": 176,
+                                "distance": 935.2,
+                                "pace": 95,
+                                "stroke_rate": 34
+                            }, {"time": 177.5, "distance": 943.2, "pace": 94, "stroke_rate": 35}, {
+                                "time": 178.5,
+                                "distance": 948.6,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 180.5, "distance": 959.2, "pace": 95, "stroke_rate": 36}, {
+                                "time": 182,
+                                "distance": 967.2,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 183, "distance": 972.5, "pace": 94, "stroke_rate": 36}, {
+                                "time": 184.5,
+                                "distance": 980.5,
+                                "pace": 93,
+                                "stroke_rate": 37
+                            }, {"time": 185.5, "distance": 986, "pace": 93, "stroke_rate": 37}, {
+                                "time": 187,
+                                "distance": 994,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 188, "distance": 999.2, "pace": 93, "stroke_rate": 36}, {
+                                "time": 189.5,
+                                "distance": 1007,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 190.5, "distance": 1012.5, "pace": 95, "stroke_rate": 36}, {
+                                "time": 192,
+                                "distance": 1020.5,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 193, "distance": 1025.7, "pace": 94, "stroke_rate": 36}, {
+                                "time": 194.5,
+                                "distance": 1033.7,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 195.5, "distance": 1039.2, "pace": 94, "stroke_rate": 36}, {
+                                "time": 197,
+                                "distance": 1047.2,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 198, "distance": 1052.3, "pace": 94, "stroke_rate": 35}, {
+                                "time": 199.5,
+                                "distance": 1060.2,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 200.5, "distance": 1065.8, "pace": 94, "stroke_rate": 35}, {
+                                "time": 202,
+                                "distance": 1073.7,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 203, "distance": 1078.8, "pace": 94, "stroke_rate": 36}, {
+                                "time": 204.4,
+                                "distance": 1086.7,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 205.5, "distance": 1092.3, "pace": 95, "stroke_rate": 35}, {
+                                "time": 207,
+                                "distance": 1100.2,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 208, "distance": 1105.3, "pace": 94, "stroke_rate": 35}, {
+                                "time": 209.5,
+                                "distance": 1113.4,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 210.5, "distance": 1118.9, "pace": 94, "stroke_rate": 35}, {
+                                "time": 212,
+                                "distance": 1126.9,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 213, "distance": 1132.1, "pace": 93, "stroke_rate": 35}, {
+                                "time": 214.5,
+                                "distance": 1140.2,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 215.5, "distance": 1145.6, "pace": 94, "stroke_rate": 36}, {
+                                "time": 217,
+                                "distance": 1153.6,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 218, "distance": 1158.9, "pace": 93, "stroke_rate": 36}, {
+                                "time": 219.5,
+                                "distance": 1167,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 220.5, "distance": 1172.4, "pace": 94, "stroke_rate": 36}, {
+                                "time": 222,
+                                "distance": 1180.3,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 222.9, "distance": 1185.5, "pace": 94, "stroke_rate": 35}, {
+                                "time": 224.4,
+                                "distance": 1193.6,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 225.5, "distance": 1199, "pace": 93, "stroke_rate": 35}, {
+                                "time": 227,
+                                "distance": 1207,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 227.9, "distance": 1212.3, "pace": 93, "stroke_rate": 36}, {
+                                "time": 229.4,
+                                "distance": 1220.4,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 230.5, "distance": 1225.7, "pace": 93, "stroke_rate": 36}, {
+                                "time": 232,
+                                "distance": 1233.7,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 233.5, "distance": 1241.6, "pace": 93, "stroke_rate": 36}, {
+                                "time": 234.5,
+                                "distance": 1247.3,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 236, "distance": 1255.3, "pace": 93, "stroke_rate": 35}, {
+                                "time": 237,
+                                "distance": 1260.5,
+                                "pace": 93,
+                                "stroke_rate": 35
+                            }, {"time": 238.4, "distance": 1268.5, "pace": 93, "stroke_rate": 36}, {
+                                "time": 239.5,
+                                "distance": 1274.1,
+                                "pace": 93,
+                                "stroke_rate": 37
+                            }, {"time": 241, "distance": 1282.2, "pace": 93, "stroke_rate": 36}, {
+                                "time": 242,
+                                "distance": 1287.3,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 243.4, "distance": 1295.3, "pace": 93, "stroke_rate": 36}, {
+                                "time": 244.5,
+                                "distance": 1300.9,
+                                "pace": 93,
+                                "stroke_rate": 37
+                            }, {"time": 245.9, "distance": 1309, "pace": 93, "stroke_rate": 36}, {
+                                "time": 247,
+                                "distance": 1314.2,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 248.5, "distance": 1322.1, "pace": 93, "stroke_rate": 36}, {
+                                "time": 249.4,
+                                "distance": 1327.7,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 251, "distance": 1335.8, "pace": 93, "stroke_rate": 36}, {
+                                "time": 252,
+                                "distance": 1341,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 253.5, "distance": 1349, "pace": 93, "stroke_rate": 36}, {
+                                "time": 254.4,
+                                "distance": 1354.5,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 255.9, "distance": 1362.6, "pace": 93, "stroke_rate": 36}, {
+                                "time": 257,
+                                "distance": 1367.8,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 258.4, "distance": 1375.7, "pace": 94, "stroke_rate": 35}, {
+                                "time": 259.5,
+                                "distance": 1381.3,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 261, "distance": 1389.3, "pace": 93, "stroke_rate": 36}, {
+                                "time": 262,
+                                "distance": 1394.6,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 263.4, "distance": 1402.6, "pace": 93, "stroke_rate": 38}, {
+                                "time": 264.4,
+                                "distance": 1408.2,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 265.9, "distance": 1416.3, "pace": 93, "stroke_rate": 36}, {
+                                "time": 267,
+                                "distance": 1421.4,
+                                "pace": 93,
+                                "stroke_rate": 36
+                            }, {"time": 268.5, "distance": 1429.4, "pace": 93, "stroke_rate": 35}, {
+                                "time": 269.4,
+                                "distance": 1434.9,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 270.9, "distance": 1442.9, "pace": 94, "stroke_rate": 36}, {
+                                "time": 271.9,
+                                "distance": 1448,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 273.4, "distance": 1456, "pace": 94, "stroke_rate": 35}, {
+                                "time": 274.4,
+                                "distance": 1461.5,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 276, "distance": 1469.5, "pace": 94, "stroke_rate": 35}, {
+                                "time": 277.4,
+                                "distance": 1477.4,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 278.4, "distance": 1482.6, "pace": 94, "stroke_rate": 36}, {
+                                "time": 279.9,
+                                "distance": 1490.6,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 280.9, "distance": 1495.9, "pace": 95, "stroke_rate": 36}, {
+                                "time": 282.5,
+                                "distance": 1503.8,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 283.4, "distance": 1509.1, "pace": 95, "stroke_rate": 35}, {
+                                "time": 284.9,
+                                "distance": 1517.2,
+                                "pace": 94,
+                                "stroke_rate": 36
+                            }, {"time": 285.9, "distance": 1522.5, "pace": 94, "stroke_rate": 35}, {
+                                "time": 287.4,
+                                "distance": 1530.3,
+                                "pace": 94,
+                                "stroke_rate": 35
+                            }, {"time": 288.4, "distance": 1535.6, "pace": 95, "stroke_rate": 35}, {
+                                "time": 289.9,
+                                "distance": 1543.5,
+                                "pace": 96,
+                                "stroke_rate": 35
+                            }, {"time": 290.9, "distance": 1548.7, "pace": 95, "stroke_rate": 35}, {
+                                "time": 292.4,
+                                "distance": 1556.5,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 293.4, "distance": 1561.9, "pace": 95, "stroke_rate": 36}, {
+                                "time": 294.9,
+                                "distance": 1569.8,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 295.9, "distance": 1574.9, "pace": 95, "stroke_rate": 36}, {
+                                "time": 297.5,
+                                "distance": 1582.8,
+                                "pace": 95,
+                                "stroke_rate": 36
+                            }, {"time": 298.5, "distance": 1588.2, "pace": 95, "stroke_rate": 35}, {
+                                "time": 299.9,
+                                "distance": 1596.1,
+                                "pace": 95,
+                                "stroke_rate": 35
+                            }, {"time": 300.9, "distance": 1601.1, "pace": 95, "stroke_rate": 35}, {
+                                "time": 302.4,
+                                "distance": 1608.8,
+                                "pace": 96,
+                                "stroke_rate": 35
+                            }, {"time": 303.4, "distance": 1614.2, "pace": 96, "stroke_rate": 34}, {
+                                "time": 304.9,
+                                "distance": 1622,
+                                "pace": 96,
+                                "stroke_rate": 35
+                            }, {"time": 305.9, "distance": 1627, "pace": 96, "stroke_rate": 35}, {
+                                "time": 307.4,
+                                "distance": 1634.9,
+                                "pace": 96,
+                                "stroke_rate": 35
+                            }, {"time": 308.4, "distance": 1640.3, "pace": 95, "stroke_rate": 36}, {
+                                "time": 309.9,
+                                "distance": 1648.2,
+                                "pace": 95,
+                                "stroke_rate": 36
+                            }, {"time": 310.9, "distance": 1653.3, "pace": 95, "stroke_rate": 36}, {
+                                "time": 312.4,
+                                "distance": 1661.1,
+                                "pace": 95,
+                                "stroke_rate": 36
+                            }, {"time": 313.4, "distance": 1666.5, "pace": 96, "stroke_rate": 35}, {
+                                "time": 314.9,
+                                "distance": 1674.3,
+                                "pace": 96,
+                                "stroke_rate": 37
+                            }, {"time": 315.9, "distance": 1679.3, "pace": 96, "stroke_rate": 37}, {
+                                "time": 317.4,
+                                "distance": 1687.2,
+                                "pace": 96,
+                                "stroke_rate": 37
+                            }, {"time": 318.9, "distance": 1695, "pace": 96, "stroke_rate": 36}, {
+                                "time": 319.9,
+                                "distance": 1700.4,
+                                "pace": 96,
+                                "stroke_rate": 36
+                            }, {"time": 321.4, "distance": 1708.2, "pace": 96, "stroke_rate": 36}, {
+                                "time": 322.4,
+                                "distance": 1713.2,
+                                "pace": 96,
+                                "stroke_rate": 36
+                            }, {"time": 323.9, "distance": 1721, "pace": 96, "stroke_rate": 36}, {
+                                "time": 324.9,
+                                "distance": 1726.3,
+                                "pace": 96,
+                                "stroke_rate": 35
+                            }, {"time": 326.4, "distance": 1734.1, "pace": 97, "stroke_rate": 36}, {
+                                "time": 327.4,
+                                "distance": 1739.1,
+                                "pace": 97,
+                                "stroke_rate": 36
+                            }, {"time": 328.9, "distance": 1746.9, "pace": 97, "stroke_rate": 37}, {
+                                "time": 329.9,
+                                "distance": 1752.4,
+                                "pace": 95,
+                                "stroke_rate": 37
+                            }, {"time": 331.4, "distance": 1760.5, "pace": 94, "stroke_rate": 38}, {
+                                "time": 332.4,
+                                "distance": 1765.7,
+                                "pace": 94,
+                                "stroke_rate": 38
+                            }, {"time": 333.9, "distance": 1773.7, "pace": 93, "stroke_rate": 39}, {
+                                "time": 334.9,
+                                "distance": 1779.2,
+                                "pace": 93,
+                                "stroke_rate": 38
+                            }, {"time": 336.4, "distance": 1787.4, "pace": 92, "stroke_rate": 40}, {
+                                "time": 337.4,
+                                "distance": 1793,
+                                "pace": 91,
+                                "stroke_rate": 41
+                            }, {"time": 338.9, "distance": 1801.2, "pace": 91, "stroke_rate": 41}, {
+                                "time": 339.9,
+                                "distance": 1806.6,
+                                "pace": 91,
+                                "stroke_rate": 41
+                            }, {"time": 341.4, "distance": 1814.7, "pace": 92, "stroke_rate": 40}, {
+                                "time": 342.4,
+                                "distance": 1820.1,
+                                "pace": 92,
+                                "stroke_rate": 40
+                            }, {"time": 343.9, "distance": 1828.2, "pace": 93, "stroke_rate": 41}, {
+                                "time": 344.9,
+                                "distance": 1833.8,
+                                "pace": 93,
+                                "stroke_rate": 40
+                            }, {"time": 346.4, "distance": 1841.8, "pace": 93, "stroke_rate": 38}, {
+                                "time": 347.4,
+                                "distance": 1847.1,
+                                "pace": 93,
+                                "stroke_rate": 38
+                            }, {"time": 348.9, "distance": 1855.2, "pace": 92, "stroke_rate": 39}, {
+                                "time": 349.9,
+                                "distance": 1860.7,
+                                "pace": 92,
+                                "stroke_rate": 39
+                            }, {"time": 351.4, "distance": 1868.8, "pace": 93, "stroke_rate": 38}, {
+                                "time": 352.4,
+                                "distance": 1874.2,
+                                "pace": 93,
+                                "stroke_rate": 40
+                            }, {"time": 353.9, "distance": 1882.3, "pace": 93, "stroke_rate": 41}, {
+                                "time": 354.9,
+                                "distance": 1887.6,
+                                "pace": 93,
+                                "stroke_rate": 41
+                            }, {"time": 356.4, "distance": 1895.8, "pace": 92, "stroke_rate": 40}, {
+                                "time": 357.4,
+                                "distance": 1901.2,
+                                "pace": 92,
+                                "stroke_rate": 42
+                            }, {"time": 358.9, "distance": 1909.5, "pace": 91, "stroke_rate": 41}, {
+                                "time": 359.9,
+                                "distance": 1915.2,
+                                "pace": 90,
+                                "stroke_rate": 43
+                            }, {"time": 361.4, "distance": 1923.5, "pace": 90, "stroke_rate": 44}, {
+                                "time": 362.4,
+                                "distance": 1928.9,
+                                "pace": 91,
+                                "stroke_rate": 41
+                            }, {"time": 363.9, "distance": 1937.2, "pace": 91, "stroke_rate": 43}, {
+                                "time": 364.9,
+                                "distance": 1942.6,
+                                "pace": 91,
+                                "stroke_rate": 43
+                            }, {"time": 366.4, "distance": 1950.9, "pace": 91, "stroke_rate": 44}, {
+                                "time": 368.4,
+                                "distance": 1961.9,
+                                "pace": 91,
+                                "stroke_rate": 43
+                            }, {"time": 369.4, "distance": 1967.4, "pace": 91, "stroke_rate": 42}, {
+                                "time": 370.9,
+                                "distance": 1975.6,
+                                "pace": 92,
+                                "stroke_rate": 42
+                            }, {"time": 371.9, "distance": 1980.8, "pace": 92, "stroke_rate": 42}, {
+                                "time": 373.4,
+                                "distance": 1989,
+                                "pace": 92,
+                                "stroke_rate": 42
+                            }, {"time": 374.4, "distance": 1994.4, "pace": 92, "stroke_rate": 42}, {
+                                "time": 375.5,
+                                "distance": 2000,
+                                "pace": 93,
+                                "stroke_rate": 42
+                            }];
                             var pace = [];
                             var stroke_rate = [];
-                           for (var idx = 0; idx < data.length; idx++) {
-                                pace.push({ x: moment([data[idx].time] * 1000), y: data[idx].pace });
-                                stroke_rate.push({ x: moment([data[idx].time] * 1000), y: data[idx].stroke_rate });
+                            for (var idx = 0; idx < data.length; idx++) {
+                                pace.push({x: moment([data[idx].time] * 1000), y: data[idx].pace});
+                                stroke_rate.push({x: moment([data[idx].time] * 1000), y: data[idx].stroke_rate});
                             }
                             var ctx = document.getElementById("chart").getContext("2d");
                             var chart = new Chart(ctx, {
                                 type: "line",
                                 data: {
                                     datasets: [
-                                      {
-                                          label: "Pace",
-                                          backgroundColor: "rgba(63, 120, 227, 0.5)",
-                                          borderColor: "rgb(63, 120, 227)",
-                                          fill: false,
-                                          data: pace,
-                                          yAxisID: "y-axis-1",
-                                      },
-                                      {
-                                          label: "Stroke rate",
-                                          backgroundColor: "rgba(235, 82, 54, 0.5)",
-                                          borderColor: "rgb(235, 82, 54)",
-                                          fill: false,
-                                          data: stroke_rate,
-                                          yAxisID: "y-axis-2",
-                                      }
+                                        {
+                                            label: "Pace",
+                                            backgroundColor: "rgba(63, 120, 227, 0.5)",
+                                            borderColor: "rgb(63, 120, 227)",
+                                            fill: false,
+                                            data: pace,
+                                            yAxisID: "y-axis-1",
+                                        },
+                                        {
+                                            label: "Stroke rate",
+                                            backgroundColor: "rgba(235, 82, 54, 0.5)",
+                                            borderColor: "rgb(235, 82, 54)",
+                                            fill: false,
+                                            data: stroke_rate,
+                                            yAxisID: "y-axis-2",
+                                        }
                                     ]
                                 },
                                 options: {
@@ -491,7 +1442,7 @@
                                         point: {
                                             radius: 0,
                                         },
-                                   },
+                                    },
                                     hover: {
                                         intersect: false,
                                     },
@@ -499,7 +1450,7 @@
                                         mode: "x",
                                         intersect: false,
                                         callbacks: {
-                                           label: function (tooltipItem, data) {
+                                            label: function (tooltipItem, data) {
                                                 var label = data.datasets[tooltipItem.datasetIndex].label + ": ";
                                                 if (tooltipItem.datasetIndex == 0)
                                                     label += moment(tooltipItem.yLabel * 1000).format("mm:ss");
@@ -538,33 +1489,33 @@
                                             },
                                         }],
                                         yAxes: [
-                                               {
-                                                   display: true,
-                                                   position: "left",
-                                                   id: "y-axis-1",
-                                                  ticks: {
-                                                       callback: function (value, index, values) {
-                                                           return moment(value * 1000).format("mm:ss");
-                                                       },
-                                                       reverse: true,
-                                                   },
-                                                   scaleLabel: {
-                                                       display: true,
-                                                       labelString: "Pace"
-                                                   }
-                                               },
-                                          {
-                                              display: true,
-                                              gridLines: {
-                                                  drawOnChartArea: false, // only want the grid lines for one axis to show up
-                                              },
-                                              id: "y-axis-2",
-                                              position: "right",
-                                              scaleLabel: {
-                                                  display: true,
-                                                  labelString: "Stroke rate"
-                                              }
-                                          }
+                                            {
+                                                display: true,
+                                                position: "left",
+                                                id: "y-axis-1",
+                                                ticks: {
+                                                    callback: function (value, index, values) {
+                                                        return moment(value * 1000).format("mm:ss");
+                                                    },
+                                                    reverse: true,
+                                                },
+                                                scaleLabel: {
+                                                    display: true,
+                                                    labelString: "Pace"
+                                                }
+                                            },
+                                            {
+                                                display: true,
+                                                gridLines: {
+                                                    drawOnChartArea: false, // only want the grid lines for one axis to show up
+                                                },
+                                                id: "y-axis-2",
+                                                position: "right",
+                                                scaleLabel: {
+                                                    display: true,
+                                                    labelString: "Stroke rate"
+                                                }
+                                            }
                                         ]
                                     }
                                 }
@@ -596,62 +1547,68 @@
                                     }
                                 });
                             }
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
+                        </script>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <br />
+    <br/>
 
 
-                <div id="HvhN" class="jumbotron text-center">
-                    <h4>Hel van het Noorden</h4>
-                    <i>Zondag, 26-11-2017</i><br />
-                    Obbe wint de LSB1x met de snelste tijd van de dag en een enorme voorsprong op de rest van het veld. David eindigt 10e. <br />
-                    En omdat we Lennart nog niet vergeten zijn en hij wel een hele stoere foto heeft laten maken na winst in de H1x: <br />
-                    <img src="img/LennartHel.jpg" style="height: 250px; margin-bottom: 20px">
-                    <br />
+    <div id="HvhN" class="jumbotron text-center">
+        <h4>Hel van het Noorden</h4>
+        <i>Zondag, 26-11-2017</i><br/>
+        Obbe wint de LSB1x met de snelste tijd van de dag en een enorme voorsprong op de rest van het veld. David
+        eindigt 10e. <br/>
+        En omdat we Lennart nog niet vergeten zijn en hij wel een hele stoere foto heeft laten maken na winst in de H1x:
+        <br/>
+        <img src="img/LennartHel.jpg" style="height: 250px; margin-bottom: 20px">
+        <br/>
 
-                </div>
+    </div>
 
-                <div id="FormShirts" class="jumbotron text-center">
-                    <br />
-                    <h4>Nieuwe collectie Oudlichtshirts</h4>
-                    <h3><i>Bestel nu!</i></h3>
-                    <br />
-                    <img src="img/shirt.jpg" style="height: 400px; margin-bottom: 20px">
-                    <br />
-                    <i>Vul onderstaande formulier in om je te verzekeren van het nieuwe Oudlichtshirt.</i>
-                    <br />
-                    <i>Voor €13,50 heb je het shirt in je bezit en steun je het Oudlichtfonds. Ook stickers!</i>
-                    <br />
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGU1km1ehR6tEyjK19WkV65TBvoZUENliTL4z7fwluMwu7pA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <div id="FormShirts" class="jumbotron text-center">
+        <br/>
+        <h4>Nieuwe collectie Oudlichtshirts</h4>
+        <h3><i>Bestel nu!</i></h3>
+        <br/>
+        <img src="img/shirt.jpg" style="height: 400px; margin-bottom: 20px">
+        <br/>
+        <i>Vul onderstaande formulier in om je te verzekeren van het nieuwe Oudlichtshirt.</i>
+        <br/>
+        <i>Voor €13,50 heb je het shirt in je bezit en steun je het Oudlichtfonds. Ook stickers!</i>
+        <br/>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGU1km1ehR6tEyjK19WkV65TBvoZUENliTL4z7fwluMwu7pA/viewform?embedded=true"
+                width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...
+        </iframe>
 
-                    <br />
-                </div>
-                <br />
+        <br/>
+    </div>
+    <br/>
 
-                <div id="nieuws">
-                    <p>Gevuld uit nieuws.html <i>intro</i></p>
-                </div>
+    <div id="nieuws">
+        <p>Gevuld uit nieuws.html <i>intro</i></p>
+    </div>
 
-                <br />
-                <div id="historie" class="jumbotron text-center">
-                    <h1>Vroeger</h1>
-                    <img src="img/lsb4-arb-07.jpg" style="height: 200px; margin-bottom: 20px">
-                    <p><a href="historie.html">Lees hier verder over de glansrijke historie van Oudlicht...</a> <i></i></p>
-                </div>
-                <div id="sla" class="jumbotron text-center">
-                    <audio controls>
-                        <source src="img/sla.mp3"
-                                type='audio/mp3'>
-                        <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
-                        <p>Your user agent does not support the HTML5 Audio element.</p>
-                    </audio>
-                </div>
+    <br/>
+    <div id="historie" class="jumbotron text-center">
+        <h1>Vroeger</h1>
+        <img src="img/lsb4-arb-07.jpg" style="height: 200px; margin-bottom: 20px">
+        <p><a href="historie.html">Lees hier verder over de glansrijke historie van Oudlicht...</a> <i></i></p>
+    </div>
+    <div id="sla" class="jumbotron text-center">
+        <audio controls>
+            <source src="img/sla.mp3"
+                    type='audio/mp3'>
+            <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
+            <p>Your user agent does not support the HTML5 Audio element.</p>
+        </audio>
+    </div>
 
-                <div>	&copy; Oudlicht 2017. Foto's van de Paparazzi of eigen fotografie of anders vermeld. Opmerkingen over rechten, neem aub contact op. </div>
+    <div> &copy; Oudlicht 2017. Foto's van de Paparazzi of eigen fotografie of anders vermeld. Opmerkingen over rechten,
+        neem aub contact op.
+    </div>
 </body>
 </html>
